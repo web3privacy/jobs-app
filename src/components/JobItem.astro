@@ -1,0 +1,47 @@
+---
+import cfonts from "cfonts";
+const { item } = Astro.props;
+
+function genIcon(str) {
+    return cfonts.render(str + " ", { font: "", maxLength: 5000 }, null, null, {
+        width: "5000",
+        height: "5000",
+    }).string;
+}
+---
+
+<div class="w3pn-event-item">
+    <div class="event-header flex">
+        <div class="header-base sm:flex gap-4 grow px-3 py-2.5 sm:px-4 sm:py-3">
+            <div class="leading-none flex justify-center text-[4px] text-white">
+                <pre>
+                    <code class="font-mono layout-heading">
+                        {genIcon(item.jobcategory.substring(0,3))}
+                    </code>
+                </pre>
+            </div>
+
+            <div>
+                <div class="text-white text-lg font-bold">
+                    {item.jobname}
+                </div>
+                <div class="flex gap-2">
+                    <a href={item.companyurl}>
+                        {item.companyname}, {item.companycategory}
+                    </a>
+                </div>
+            </div>
+            <div class="py-1 grow text-right items-center flex gap-4">
+                <div class="grow"></div>
+
+                {
+                    item.joburl && (
+                        <a href={item.joburl} class="button inverted">
+                            <button>Apply</button>
+                        </a>
+                    )
+                }
+            </div>
+        </div>
+    </div>
+</div>

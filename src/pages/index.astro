@@ -1,10 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import jobs from '@data/jobs.json';
+import JobItem from '../components/JobItem.astro';
 ---
 
 <Layout title="Jobs.">
-	<main>
-
+	<main class="my-20 middle-pane-medium">
+		{jobs.openings.map((post) => <JobItem item={post} />)}
 	</main>
 </Layout>

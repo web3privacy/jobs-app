@@ -5,31 +5,36 @@
     "menu": [
       {
         "name": "Home",
-        "url": "/"
+        "url": "https://web3privacy.info/"
       },
       {
         "name": "About",
-        "url": "/about"
+        "url": "https://web3privacy.info/about"
       },
       {
         "name": "Research",
-        "url": "/research"
+        "url": "https://web3privacy.info/research"
       },
       {
         "name": "Events",
-        "url": "/events"
+        "url": "https://web3privacy.info/events"
       },
       {
         "name": "Explorer",
-        "link": "explorer"
+        "link": "https://explorer.web3privacy.info/"
       },
       {
+        "name": "Jobs",
+        "link": "/"
+      },
+
+      {
         "name": "News",
-        "link": "news"
+        "link": "https://news.web3privacy.info/"
       },
       {
         "name": "Docs",
-        "link": "docs"
+        "link": "https://docs.web3privacy.info/"
       }
     ],
     "rightMenu": [
