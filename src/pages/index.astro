@@ -1,11 +1,45 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import jobs from '@data/jobs.json';
-import JobItem from '../components/JobItem.astro';
+import Layout from "../layouts/Layout.astro";
+import jobs from "@data/jobs.json";
+import JobItem from "../components/JobItem.astro";
+
+const categories = jobs.openings.reduce((acc, job) => {
+	if (acc.indexOf(job.jobcategory) === -1) {
+		acc.push(job.jobcategory);
+	}
+	return acc;
+}, []);
 ---
 
 <Layout title="Jobs.">
-	<main class="my-20 middle-pane-medium">
-		{jobs.openings.map((post) => <JobItem item={post} />)}
+	<main class="my-20 middle-pane-medium flex lg:gap-8">
+		<astro-side-filter class="hidden lg:flex w-64 flex-col gap-4 mt-8">
+			{
+				categories.map((category) => (
+					<button data-filter={category}>{category}</button>
+				))
+			}
+		</astro-side-filter>
+		<article class="grow">
+			{jobs.openings.map((post) => <JobItem item={post} />)}
+		</article>
 	</main>
 </Layout>
+<script>
+	class AstroSideNav extends HTMLElement {
+		constructor() {
+			super();
+			const buttons = this.querySelectorAll("button");
+
+			buttons.forEach((button) => {
+				const filter = button.dataset.filter;
+				button.addEventListener("click", () => {
+					alert(filter + " was clicked!");
+				});
+			});
+		}
+	}
+
+	// Tell the browser to use our AstroSideNav class for <astro-heart> elements.
+	customElements.define("astro-side-filter", AstroSideNav);
+</script>
