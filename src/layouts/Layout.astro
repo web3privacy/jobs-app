@@ -1,6 +1,4 @@
 ---
-//import { ViewTransitions } from 'astro:transitions';
-
 import * as config from "@data/config.json";
 import * as pkg from "../../package.json";
 import core from "@data/core.json";
@@ -9,7 +7,6 @@ import MetaTags from "../components/MetaTags.astro";
 import { genHeading } from "../utils/ascii";
 
 const { banner, title, metaTitle, description, image } = Astro.props;
-
 ---
 
 <html lang="en">
@@ -146,13 +143,13 @@ const { banner, title, metaTitle, description, image } = Astro.props;
 				!banner && (
 					<div class="middle-pane-medium mt-8 sm:mt-14 mb-2 sm:mb-8">
 						<div class="leading-none flex justify-center text-[4px] sm:text-[8px] text-white">
-							{/*<img src="/page-events.png" class="h-8 sm:h-14" title="Events" />*/}
 							<pre>
 								<code class="font-mono layout-heading">
 									{genHeading(title)}
 								</code>
 							</pre>
 						</div>
+						<div class="text-left mt-10">{config.jobs.text}</div>
 					</div>
 				)
 			}

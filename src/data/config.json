@@ -27,7 +27,6 @@
         "name": "Jobs",
         "link": "https://jobs.web3privacy.info/"
       },
-
       {
         "name": "News",
         "link": "https://news.web3privacy.info/"
@@ -75,6 +74,9 @@
   },
   "hero": {
     "text": "Privacy advocates worldwide are coming together to discuss how to mainstream privacy within the Web3 industry. So it will become a cultural phenomenon embodying both decentralisation & anti-surveillance capitalism practices."
+  },
+  "jobs": {
+    "text": "Are you passionate about privacy? Do what you love by joining one of these companies contributing to privacy in the web3. Empower everyone from developers to users with meaningful tech, valuable use cases & advocacy."
   },
   "landing": {
     "mission": "To make humans gain control over their privacy by utilizing Web3 stack. So privacy would become a conscious choice (active lifestyle) & be accessible to everyone worldwide.\n<br><br>\nPrivacy advocates worldwide are coming together to discuss how to mainstream privacy within the Web3 industry. So it will become a cultural phenomenon embodying both decentralisation.",
