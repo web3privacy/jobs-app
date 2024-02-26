@@ -1,13 +1,6 @@
 ---
-import cfonts from "cfonts";
 const { item } = Astro.props;
-
-function genIcon(str) {
-    return cfonts.render(str + " ", { font: "", maxLength: 5000 }, null, null, {
-        width: "5000",
-        height: "5000",
-    }).string;
-}
+import { genHeading } from "../utils/ascii";
 ---
 
 <div class="w3pn-event-item">
@@ -16,7 +9,7 @@ function genIcon(str) {
             <div class="leading-none flex justify-center text-[4px] text-white">
                 <pre>
                     <code class="font-mono layout-heading">
-                        {genIcon(item.jobcategory.substring(0,3))}
+                        {genHeading(item.jobcategory.substring(0,3))}
                     </code>
                 </pre>
             </div>
