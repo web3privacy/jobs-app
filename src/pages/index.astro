@@ -3,24 +3,23 @@ import Layout from "../layouts/Layout.astro";
 import jobs from "@data/jobs.json";
 import JobItem from "../components/JobItem.astro";
 
-const categories = jobs.openings.reduce((acc, job) => {
-	if (acc.indexOf(job.jobcategory) === -1) {
-		acc.push(job.jobcategory);
-	}
-	return acc;
-}, []);
+// Get all unique categories
+const categories = [...new Set(jobs.openings.map((job) => job.jobcategory))];
 ---
 
 <Layout title="Jobs.">
 	<main class="my-20 middle-pane-medium flex lg:gap-8">
 		<astro-side-filter class="hidden lg:flex w-64 flex-col gap-4 mt-8">
+			<button data-filter="all">All</button>
 			{
 				categories.map((category) => (
-					<button data-filter={category}>{category}</button>
+					<button class="button" data-filter={category}>
+						{category}
+					</button>
 				))
 			}
 		</astro-side-filter>
-		<article class="grow">
+		<article class="grow transition-all duration-500">
 			{jobs.openings.map((post) => <JobItem item={post} />)}
 		</article>
 	</main>
@@ -30,11 +29,20 @@ const categories = jobs.openings.reduce((acc, job) => {
 		constructor() {
 			super();
 			const buttons = this.querySelectorAll("button");
-
+			const jobItems = document.querySelectorAll(".w3pn-event-item");
 			buttons.forEach((button) => {
 				const filter = button.dataset.filter;
 				button.addEventListener("click", () => {
-					alert(filter + " was clicked!");
+					jobItems.forEach((jobItem) => {
+						jobItem.classList.add("hidden");
+					});
+					const selectedJobItems = document.querySelectorAll(
+						`.w3pn-event-item.${filter}`,
+					);
+					selectedJobItems.forEach((jobItem) => {
+						jobItem.classList.remove("hidden");
+					});
+					//console.log(jobItems);
 				});
 			});
 		}
