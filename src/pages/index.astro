@@ -9,7 +9,7 @@ const categories = [...new Set(jobs.map((job) => job.jobcategory))];
 
 <Layout title="Jobs.">
 	<main class="my-20 middle-pane-medium flex flex-col gap-8 md:flex-row">
-		<astro-side-filter class="flex flex-row md:w-64 md:flex-col gap-4 mt-8 justify-center w-full md:justify-start">
+		<astro-side-filter class="flex flex-row md:w-64 md:flex-col gap-4 mt-8 justify-center w-full md:justify-start overflow-x-auto">
 			<button data-filter="all">All</button>
 			{
 				categories.map((category) => (
