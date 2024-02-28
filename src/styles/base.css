@@ -32,6 +32,11 @@
 
 @layer components {
 
+  html {
+    @apply antialiased;
+    min-height: 100%;
+  }
+
   body, p, div {
     @apply text-[#909090] leading-8;
   }
