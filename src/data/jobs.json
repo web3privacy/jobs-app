@@ -1,121 +1,119 @@
-{
-    "openings": [
-        {
-            "id": "sienna1",
-            "jobname": "Community manager",
-            "joburl": "https://sienna.network/jobs/",
-            "jobcategory": "MARKETING",
-            "companyname": "Sienna",
-            "companyurl": "https://sienna.network/jobs/",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "elusiv1",
-            "jobname": "Cryptography Working Student",
-            "joburl": "https://www.elusiv.io/jobs/424e6d1c",
-            "jobcategory": "CRYPTOGRAPHY",
-            "companyname": "Elusiv",
-            "companyurl": "Elusiv",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "espresso1",
-            "jobname": "Full-Stack Engineer",
-            "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Espresso Systems",
-            "companyurl": "Espresso Systems",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "espresso2",
-            "jobname": "DevOps Engineer",
-            "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Espresso Systems",
-            "companyurl": "Espresso Systems",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "espresso3",
-            "jobname": "Senior Software Engineer, Infrastructure",
-            "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Espresso Systems",
-            "companyurl": "Espresso Systems",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "espresso4",
-            "jobname": "Software Engineer, Infrastructure",
-            "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Espresso Systems",
-            "companyurl": "Espresso Systems",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "espresso5",
-            "jobname": "Software Engineer, Smart Contracts",
-            "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Espresso Systems",
-            "companyurl": "Espresso Systems",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "espresso6",
-            "jobname": "Software Engineer, Cryptography",
-            "joburl": "https://jobs.lever.co/Espresso/c32cd9f2-7f6d-46e8-ac80-ed1499d19330",
-            "jobcategory": "CRYPTOGRAPHY",
-            "companyname": "Espresso Systems",
-            "companyurl": "Espresso Systems",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "silent1",
-            "jobname": "Front End Developer",
-            "joburl": "https://www.silentresearchlabs.org/jobs/backend-system-engineer",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Silent Research Labs",
-            "companyurl": "Silent Research Labs",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "silent2",
-            "jobname": "BackEnd Engineer",
-            "joburl": "https://www.silentresearchlabs.org/jobs/backend-system-engineer",
-            "jobcategory": "ENGINEERING",
-            "companyname": "Silent Research Labs",
-            "companyurl": "Silent Research Labs",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "silent3",
-            "jobname": "Digital Designer",
-            "joburl": "https://www.silentresearchlabs.org/jobs/digital-designer",
-            "jobcategory": "PRODUCT",
-            "companyname": "Silent Research Labs",
-            "companyurl": "Silent Research Labs",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "silent4",
-            "jobname": "Growth Marketer",
-            "joburl": "https://www.silentresearchlabs.org/jobs/growth-marketer",
-            "jobcategory": "MARKETING",
-            "companyname": "Silent Research Labs",
-            "companyurl": "Silent Research Labs",
-            "companycategory": "DeFi"
-        },
-        {
-            "id": "silent5",
-            "jobname": "Legal Counsel",
-            "joburl": "https://www.silentresearchlabs.org/jobs/legal-counsel",
-            "jobcategory": "OTHER",
-            "companyname": "Silent Research Labs",
-            "companyurl": "Silent Research Labs",
-            "companycategory": "DeFi"
-        }
-    ]
-}
+[
+    {
+      "id": "sienna1",
+      "jobname": "Community manager",
+      "joburl": "https://sienna.network/jobs/",
+      "jobcategory": "MARKETING",
+      "companyname": "Sienna",
+      "companyurl": "https://sienna.network/jobs/",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "elusiv1",
+      "jobname": "Cryptography Working Student",
+      "joburl": "https://www.elusiv.io/jobs/424e6d1c",
+      "jobcategory": "CRYPTOGRAPHY",
+      "companyname": "Elusiv",
+      "companyurl": "https://elusiv.io/jobs",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "espresso1",
+      "jobname": "Full-Stack Engineer",
+      "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Espresso Systems",
+      "companyurl": "https://jobs.lever.co/Espresso",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "espresso2",
+      "jobname": "DevOps Engineer",
+      "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Espresso Systems",
+      "companyurl": "https://jobs.lever.co/Espresso",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "espresso3",
+      "jobname": "Senior Software Engineer, Infrastructure",
+      "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Espresso Systems",
+      "companyurl": "https://jobs.lever.co/Espresso",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "espresso4",
+      "jobname": "Software Engineer, Infrastructure",
+      "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Espresso Systems",
+      "companyurl": "https://jobs.lever.co/Espresso",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "espresso5",
+      "jobname": "Software Engineer, Smart Contracts",
+      "joburl": "https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Espresso Systems",
+      "companyurl": "https://jobs.lever.co/Espresso",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "espresso6",
+      "jobname": "Software Engineer, Cryptography",
+      "joburl": "https://jobs.lever.co/Espresso/c32cd9f2-7f6d-46e8-ac80-ed1499d19330",
+      "jobcategory": "CRYPTOGRAPHY",
+      "companyname": "Espresso Systems",
+      "companyurl": "https://jobs.lever.co/Espresso",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "silent1",
+      "jobname": "Front End Developer",
+      "joburl": "https://www.silentresearchlabs.org/jobs/backend-system-engineer",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Silent Research Labs",
+      "companyurl": "https://www.silentresearchlabs.org/company/careers",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "silent2",
+      "jobname": "BackEnd Engineer",
+      "joburl": "https://www.silentresearchlabs.org/jobs/backend-system-engineer",
+      "jobcategory": "ENGINEERING",
+      "companyname": "Silent Research Labs",
+      "companyurl": "https://www.silentresearchlabs.org/company/careers",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "silent3",
+      "jobname": "Digital Designer",
+      "joburl": "https://www.silentresearchlabs.org/jobs/digital-designer",
+      "jobcategory": "PRODUCT",
+      "companyname": "Silent Research Labs",
+      "companyurl": "https://www.silentresearchlabs.org/company/careers",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "silent4",
+      "jobname": "Growth Marketer",
+      "joburl": "https://www.silentresearchlabs.org/jobs/growth-marketer",
+      "jobcategory": "MARKETING",
+      "companyname": "Silent Research Labs",
+      "companyurl": "https://www.silentresearchlabs.org/company/careers",
+      "companycategory": "DeFi"
+    },
+    {
+      "id": "silent5",
+      "jobname": "Legal Counsel",
+      "joburl": "https://www.silentresearchlabs.org/jobs/legal-counsel",
+      "jobcategory": "OTHER",
+      "companyname": "Silent Research Labs",
+      "companyurl": "https://www.silentresearchlabs.org/company/careers",
+      "companycategory": "DeFi"
+    }
+  ]

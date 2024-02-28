@@ -4,7 +4,7 @@ import jobs from "@data/jobs.json";
 import JobItem from "../components/JobItem.astro";
 
 // Get all unique categories
-const categories = [...new Set(jobs.openings.map((job) => job.jobcategory))];
+const categories = [...new Set(jobs.map((job) => job.jobcategory))];
 ---
 
 <Layout title="Jobs.">
@@ -20,7 +20,7 @@ const categories = [...new Set(jobs.openings.map((job) => job.jobcategory))];
 			}
 		</astro-side-filter>
 		<article class="grow transition-all duration-500">
-			{jobs.openings.map((post) => <JobItem item={post} />)}
+			{jobs.map((post) => <JobItem item={post} />)}
 		</article>
 	</main>
 </Layout>
