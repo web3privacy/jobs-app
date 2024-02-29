@@ -1,9 +1,11 @@
 ---
 import * as config from "@data/config.json";
-import * as pkg from "../../package.json";
-import core from "@data/core.json";
+//import * as pkg from "../../package.json";
+//import core from "@data/core.json";
 import "../styles/base.css";
 import MetaTags from "../components/MetaTags.astro";
+import { Image } from "astro:assets";
+import logo from "../assets/logo.svg";
 
 const { banner, title, metaTitle, description, image } = Astro.props;
 ---
@@ -41,66 +43,60 @@ const { banner, title, metaTitle, description, image } = Astro.props;
 			crossorigin
 		/>
 	</head>
-	<body class="bg-black bg-gradient-to-tl from-black to-blue-900/30 text-white min-h-full">
-		<div
-			class="w-full z-10"
-		>
-			<div class="w-full h-full flex mt-10  middle-pane-medium">
-				<div>
-					<div class="text-white text-3xl font-bold">Jobs.</div>
-					<div class="w3pn-logo w-64 sm:w-72 lg:w-80 xl:w-96"></div>
-					<div class="text-left mt-10">
-						Are you passionate about privacy? Do what you love by joining one of these companies contributing to privacy in the web3. Empower everyone from developers to users with meaningful tech, valuable use cases & advocacy.
-					</div>
-					<div class="mt-6">
-						<a class="button" href="https://web3privacy.info/about/">
-							<button>About Web3Privacy Now</button>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<slot />
-
-		<div
-			class="border-0 border-t-2 border-white/10 p-16 relative bottom-0"
-		>
-			<div class="middle-pane-big">
+	<body
+		class="bg-black bg-gradient-to-tl from-black to-blue-900/30 text-white min-h-full"
+	>
+		<div class="w-full">
+			<div
+				class="flex flex-col p-5 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+			>
 				<div
-					class="flex gap-10 text-lg items-center flex-wrap align-top"
-					id="footerMenu"
+					class="flex flex-row items-center justify-between lg:justify-start"
 				>
-					<a href="/" aria-label="home" class="w3pn-logo w-32"></a>
-					<div class="text-md">
-						<a
-							href="https://github.com/web3privacy/web"
-							class="text-white hover:underline">v{pkg.version}</a
-						>
-					</div>
-					<div class="grow flex sm:justify-end">
-						<div
-							class="sm:flex justify-center flex-wrap gap-4 lg:gap-10"
-						>
-							{
-								config.footer.menu.map((item) => (
-									<div class="flex gap-4 items-center menuItem lg:mb-0 mb-2">
-										<div
-											class="icon small opacity-50"
-											class:list={[item.ico]}
-										/>
-										<div class="text-white hover:underline">
-											<a href={core.links[item.link]}>
-												{item.title}
-											</a>
-										</div>
-									</div>
-								))
-							}
-						</div>
-					</div>
+					<a
+						class="text-3xl font-bold tracking-tighter text-white p-6 tracking-relaxed transition duration-[3000ms] ease-in-out transform hover:bg-neutral-600/30"
+						href="/"
+					>
+						jobs.
+					</a>
 				</div>
+				<nav
+					class="flex-col flex-grow hidden md:flex md:justify-end md:flex-row"
+				>
+					<ul
+						class="space-y-2 list-none lg:space-y-0 lg:items-center lg:inline-flex"
+					>
+						<li>
+							<a
+								href="https://web3privacy.info/"
+								aria-label="by Web3Privacy Now"
+								class="flex"
+							>
+								<Image
+									src={logo}
+									alt="logo"
+									class="w-32"
+									loading="eager"
+								/>
+							</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</div>
+		<slot />
+		<footer
+			class="flex items-center justify-center w-full h-24 border-t border-white/10 bg-white"
+		>
+			<div class="p-10 text-black text-center font-mono">
+				Are you passionate about privacy? Do what you love by joining
+				one of these companies contributing to privacy in the web3.
+				Empower everyone from developers to users with meaningful tech,
+				valuable use cases & advocacy. This is a project by <a
+					class="font-bold"
+					href="https://web3privacy.info/">Web3Privacy</a
+				>.
+			</div>
+		</footer>
 	</body>
 </html>
