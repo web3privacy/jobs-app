@@ -42,12 +42,9 @@ const categories = [...new Set(jobs.map((job) => job.jobcategory))];
 					selectedJobItems.forEach((jobItem) => {
 						jobItem.classList.remove("hidden");
 					});
-					//console.log(jobItems);
 				});
 			});
 		}
 	}
-
-	// Tell the browser to use our AstroSideNav class for <astro-heart> elements.
 	customElements.define("astro-side-filter", AstroSideNav);
 </script>
