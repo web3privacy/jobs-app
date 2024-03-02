@@ -7,7 +7,7 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          curl --data-binary @jobs.csv https://csvjson.fermyon.app/ > src/data/jobsdata.json
+          curl --data-binary @jobs.csv https://csvjson.fermyon.app/ > jobsdata.json
           git add .
           git commit -m "generated"
           git push
