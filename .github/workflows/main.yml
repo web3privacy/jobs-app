@@ -1,0 +1,17 @@
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            jobs.csv
+          sparse-checkout-cone-mode: false
+      - run: |
+          cat $HOME/jobs.csv
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
