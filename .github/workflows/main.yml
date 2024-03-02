@@ -9,6 +9,7 @@ jobs:
             jobs.csv
           sparse-checkout-cone-mode: false
       - run: |
+          ls
           cat $HOME/jobs.csv
           git config user.name github-actions
           git config user.email github-actions@github.com
