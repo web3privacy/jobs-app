@@ -2,14 +2,30 @@ id,jobname,joburl,jobcategory,companyname,companyurl,companycategory
 sienna1,Community manager,https://sienna.network/jobs/,MARKETING,Sienna,https://sienna.network/jobs/,DeFi
 elusiv1,Cryptographer,https://www.elusiv.io/jobs/4fe7d249,CRYPTOGRAPHY,Elusiv,https://elusiv.io/jobs,DeFi
 elusiv2,Developer Relations Manager,https://www.elusiv.io/jobs/edb201c2,ENGINEERING,Elusiv,https://elusiv.io/jobs,DeFi
-espresso1,Full-Stack Engineer,https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
-espresso2,DevOps Engineer,https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
-espresso3,"Senior Software Engineer, Infrastructure",https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
-espresso4,"Software Engineer, Infrastructure",https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
-espresso5,"Software Engineer, Smart Contracts",https://jobs.lever.co/Espresso/6131872c-dbad-4b89-8fa3-a5412d844bbd,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
-espresso6,"Software Engineer, Cryptography",https://jobs.lever.co/Espresso/c32cd9f2-7f6d-46e8-ac80-ed1499d19330,CRYPTOGRAPHY,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
+espresso1,Ecosystem Researcher,https://jobs.lever.co/Espresso/1f2ef1c0-6215-4876-a869-87c307a87731,RESEARCH,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
+espresso2,Growth Marketing Lead,https://jobs.lever.co/Espresso/7aa0e3a7-a598-42a3-a5ff-c46d39597439,MARKETING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
+espresso3,Security Engineering Lead,https://jobs.lever.co/Espresso/135f4767-f690-41f8-9ab0-95fd9d398677,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
+espresso4,Software Engineer, Infrastructure,https://jobs.lever.co/Espresso/bf359a02-5579-4d8b-a254-23c989f67af5,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
 silent1,Front End Developer,https://www.silentresearchlabs.org/jobs/backend-system-engineer,ENGINEERING,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
 silent2,BackEnd Engineer,https://www.silentresearchlabs.org/jobs/backend-system-engineer,ENGINEERING,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
 silent3,Digital Designer,https://www.silentresearchlabs.org/jobs/digital-designer,PRODUCT,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
 silent4,Growth Marketer,https://www.silentresearchlabs.org/jobs/growth-marketer,MARKETING,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
 silent5,Legal Counsel,https://www.silentresearchlabs.org/jobs/legal-counsel,OTHER,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
+panther1,Blockchain Architect,https://wellfound.com/jobs/2221049-blockchain-architect,ENGINEERING, Panther Protocol,https://wellfound.com/company/panther-protocol/jobs,DeFi
+panther2,Full Stack Developer,https://wellfound.com/jobs/2227585-full-stack-developer,ENGINEERING, Panther Protocol,https://wellfound.com/company/panther-protocol/jobs,DeFi
+panther3,Lead Front-end Developer,https://wellfound.com/jobs/2227586-lead-front-end-developer,ENGINEERING, Panther Protocol,https://wellfound.com/company/panther-protocol/jobs,DeFi
+panther4,Sr. Marcomms and Social Media Manager,https://wellfound.com/jobs/2811961-sr-marcomms-and-social-media-manager,MARKETING, Panther Protocol,https://wellfound.com/company/panther-protocol/jobs,DeFi
+panther5,Sr. Technical Writer,https://wellfound.com/jobs/2811958-sr-technical-writer,MARKETING, Panther Protocol,https://wellfound.com/company/panther-protocol/jobs,DeFi
+webb1,Rust Engineer,https://wellfound.com/jobs/1863129-rust-engineer,ENGINEERING,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
+webb2,Senior Cryptography Engineer,https://wellfound.com/jobs/1241036-senior-cryptography-engineer,CRYPTOGRAPHY,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
+webb3,Chief Technology Officer ,https://wellfound.com/jobs/1635055-chief-technology-officer,ENGINEERING,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
+webb4,Product Manager ,https://wellfound.com/jobs/1654000-product-manager,PRODUCT,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
+renegade1,Cryptography Engineer,https://jobs.lever.co/renegade/d356c32f-7089-4460-89ac-88e351c024cd,CRYPTOGRAPHY,Renegade,https://jobs.lever.co/renegade/,DeFi
+renegade2,Full-Stack Engineer,https://jobs.lever.co/renegade/797c3a64-eb3d-4cf6-94e7-9eb22d602fcb,ENGINEERING,Renegade,https://jobs.lever.co/renegade/,DeFi
+renegade3,Systems Engineer,https://jobs.lever.co/renegade/f2a7662d-3f0b-47a6-a9e6-c570e42cfb34,ENGINEERING,Renegade,https://jobs.lever.co/renegade/,DeFi
+renegade4,Interface Designer,https://jobs.lever.co/renegade/7e2d53d1-5b44-4865-8b3f-e01ca969df4e,PRODUCT,Renegade,https://jobs.lever.co/renegade/,DeFi
+renegade5,Technical Writer,https://jobs.lever.co/renegade/fd980ba9-48de-4175-a74f-d83e02acbb82,MARKETING,Renegade,https://jobs.lever.co/renegade/,DeFi
+renegade6,Generalist,https://jobs.lever.co/renegade/ff82656d-c8bf-484b-95a0-378f2795443d,OTHER,Renegade,https://jobs.lever.co/renegade/,DeFi
+definer1,UI UX Graphic Designer,https://definer.freshteam.com/jobs/_xHgZlVUfKwQ/ui-ux-graphic-designer-remote,MARKETING,DeFiner,https://definer.freshteam.com/jobs,DeFi
+definer2,Full Stack Developer,https://definer.freshteam.com/jobs/vHT0qxyd93Mn/definer-full-stack-developer-remote,ENGINEERING,DeFiner,https://definer.freshteam.com/jobs,DeFi
+definer3,Entry Level Data Scientist,https://definer.freshteam.com/jobs/t-xkJgq0RfpW/entry-level-data-scientist,PRODUCT,DeFiner,https://definer.freshteam.com/jobs,DeFi
