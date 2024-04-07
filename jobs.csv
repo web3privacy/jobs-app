@@ -59,10 +59,10 @@ mina5,Senior Technical Product Manager,https://apply.workable.com/mina-foundatio
 oasis1,Developer Relations Engineer,https://boards.greenhouse.io/oasisnetwork/jobs/4346429005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis2,Developer Relations Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4348296005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis3,Developer Relations Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4358939005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis4,Senior Software Engineer, Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis5,Senior Software Engineer, Smart Contracts,https://boards.greenhouse.io/oasisnetwork/jobs/4369218005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis6,Senior Software Engineer, Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395553005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis7,Senior Software Engineer, Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis4,Senior Software Engineer - Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis5,Senior Software Engineer - Smart Contracts,https://boards.greenhouse.io/oasisnetwork/jobs/4369218005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis6,Senior Software Engineer - Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395553005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis7,Senior Software Engineer - Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis8,Communications Lead,https://boards.greenhouse.io/oasisnetwork/jobs/4397677005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis9,Communications Lead,https://boards.greenhouse.io/oasisnetwork/jobs/4397675005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis10,Content Writer,https://boards.greenhouse.io/oasisnetwork/jobs/4397672005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
@@ -122,10 +122,10 @@ foundation4,Embedded Rust Device Driver Engineer,https://foundation.xyz/jobs/#jo
 spruceid1,Quality Engineer,https://jobs.lever.co/sprucesystems/d05ebda3-49d3-46f2-8905-fb6b988de6ba,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid2,React Native Developer,https://jobs.lever.co/sprucesystems/dc335f4f-569d-4da8-a433-1f7d7a4aeef7,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid3,Site Reliability Engineer,https://jobs.lever.co/sprucesystems/cc0863b6-f021-4e9f-b45b-4b407fc7515a,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
-spruceid4,Software Engineer, Android,https://jobs.lever.co/sprucesystems/d9129120-2757-4882-aec2-0d1a73441df6,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
-spruceid5,Software Engineer, Rust,https://jobs.lever.co/sprucesystems/c74507b7-a68b-41dd-83ad-b0162a538e16,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
-spruceid6,Business Development, B2B,https://jobs.lever.co/sprucesystems/09636ad4-682c-42e5-b0f6-95718fad6b23,OPERATIONS,SpruceID,https://jobs.lever.co/sprucesystems,DID
-spruceid7,Business Development, Public Sector,https://jobs.lever.co/sprucesystems/5f8b67a7-1003-478c-9be0-44562ff17a0f,OPERATIONS,SpruceID,https://jobs.lever.co/sprucesystems,DID
+spruceid4,Software Engineer - Android,https://jobs.lever.co/sprucesystems/d9129120-2757-4882-aec2-0d1a73441df6,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
+spruceid5,Software Engineer - Rust,https://jobs.lever.co/sprucesystems/c74507b7-a68b-41dd-83ad-b0162a538e16,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
+spruceid6,Business Development - B2B,https://jobs.lever.co/sprucesystems/09636ad4-682c-42e5-b0f6-95718fad6b23,OPERATIONS,SpruceID,https://jobs.lever.co/sprucesystems,DID
+spruceid7,Business Development - Public Sector,https://jobs.lever.co/sprucesystems/5f8b67a7-1003-478c-9be0-44562ff17a0f,OPERATIONS,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid8,Senior Product Manager,https://jobs.lever.co/sprucesystems/72d43811-c6b0-478d-b647-b4caa03ce6d1,PRODUCT,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid9,Technical Success Manager,https://jobs.lever.co/sprucesystems/c29dc4c8-5fe9-4b2d-8e15-b412c6c3d1ec,PRODUCT,SpruceID,https://jobs.lever.co/sprucesystems,DID
 clique1,Marketing Lead,https://cliqueofficial.notion.site/Marketing-Lead-8a74a9cc9d064829bf947f8775130a2e,MARKETING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
@@ -159,10 +159,10 @@ chromium2,UX Designer,https://carbon.website/job/ux-designer/,PRODUCT,Carbon,htt
 chromium3,Chromium Developer,https://carbon.website/job/chromium-developer/,ENGINEERING,Carbon,https://carbon.website/jobs/,Browser
 puma1,iOS Engineer,https://www.pumabrowser.com/careers/ios-engineer,ENGINEERING,Puma Browser,https://www.pumabrowser.com/careers,Browser
 puma2,Android Engineer,https://www.pumabrowser.com/careers/android-engineer,ENGINEERING,Puma Browser,https://www.pumabrowser.com/careers,Browser
-puma3,Head of Memes & Growth ,https://www.pumabrowser.com/careers/head-of-memes-growth,MARKETING,Puma Browser,https://www.pumabrowser.com/careers,Browser
+puma3,Head of Memes & Growth,https://www.pumabrowser.com/careers/head-of-memes-growth,MARKETING,Puma Browser,https://www.pumabrowser.com/careers,Browser
 grapheneos1,GrapheneOS Remote Developer,https://grapheneos.org/hiring,ENGINEERING,Graphene OS,https://grapheneos.org/hiring,OS
 codex1,Technical Business Development Lead,https://boards.greenhouse.io/codex/jobs/5453088,SALES,Codex,https://codex.storage/join-us,Storage
-swarm1,Software Engineer ,https://www.ethswarm.org/jobs/Software_Engineer_go_blockchain,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
+swarm1,Software Engineer,https://www.ethswarm.org/jobs/Software_Engineer_go_blockchain,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
 swarm2,QA Engineer,https://www.ethswarm.org/jobs/qa-engineer,QA,Swarm,https://www.ethswarm.org/jobs,Storage
 swarm3,Senior Software Engineer,https://www.ethswarm.org/jobs/senior-software-engineer-go,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
 swarm4,Grant Manager,https://www.ethswarm.org/jobs/grant-manager,OPERATIONS,Swarm,https://www.ethswarm.org/jobs,Storage
