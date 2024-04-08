@@ -5,4 +5,4 @@ Steps to update:
 - wait like one minute and try to reload page
 
 Profit :-) 
-Editing csv files in githug could be tricky. If you struggle with that, download the file, change in Google Sheets or Excel and upload it back.
+Editing csv files in github could be tricky. If you struggle with that, download the file, change in Google Sheets or Excel and upload it back.
