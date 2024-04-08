@@ -4,7 +4,7 @@ elusiv1,Cryptographer,https://www.elusiv.io/jobs/4fe7d249,CRYPTOGRAPHY,Elusiv,ht
 elusiv2,Developer Relations Manager,https://www.elusiv.io/jobs/edb201c2,ENGINEERING,Elusiv,https://elusiv.io/jobs,DeFi
 espresso1,Ecosystem Researcher,https://jobs.lever.co/Espresso/1f2ef1c0-6215-4876-a869-87c307a87731,RESEARCH,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
 espresso2,Growth Marketing Lead,https://jobs.lever.co/Espresso/7aa0e3a7-a598-42a3-a5ff-c46d39597439,MARKETING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
-espresso3,Security Engineering Lead,https://jobs.lever.co/Espresso/135f4767-f690-41f8-9ab0-95fd9d398677,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
+espresso3,Security Engineering Lead,https://jobs.lever.co/Espresso/135f4767-f690-41f8-9ab0-95fd9d398677,SECURITY,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
 espresso4,Software Engineer - Infrastructure,https://jobs.lever.co/Espresso/bf359a02-5579-4d8b-a254-23c989f67af5,ENGINEERING,Espresso Systems,https://jobs.lever.co/Espresso,DeFi
 silent1,Front End Developer,https://www.silentresearchlabs.org/jobs/backend-system-engineer,ENGINEERING,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
 silent2,BackEnd Engineer,https://www.silentresearchlabs.org/jobs/backend-system-engineer,ENGINEERING,Silent Research Labs,https://www.silentresearchlabs.org/company/careers,DeFi
@@ -82,7 +82,7 @@ ritual4,Smart Contract Engineer,https://boards.greenhouse.io/ritual/jobs/4135728
 ritual5,General Application,https://boards.greenhouse.io/ritual/jobs/4135918007,OTHER,Ritual,https://boards.greenhouse.io/ritual,Infra
 daml1,Product Design Manager - UX/UI,https://boards.greenhouse.io/digitalasset/jobs/5718042,PRODUCT,Daml,https://boards.greenhouse.io/digitalasset,Infra
 darkfi1,Developer,https://darkrenaissance.github.io/darkfi/dev/contrib/contrib.html#employment,ENGINEERING,DarkFi,https://darkrenaissance.github.io/darkfi/dev/contrib/contrib.html#employment,Infra
-aztec1,Proving Systems Security Engineer,https://boards.eu.greenhouse.io/aztec/jobs/4258022101,ENGINEERING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
+aztec1,Proving Systems Security Engineer,https://boards.eu.greenhouse.io/aztec/jobs/4258022101,SECURITY,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
 aztec2,Ecosystem Lead,https://boards.eu.greenhouse.io/aztec/jobs/4303324101,PRODUCT,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
 aztec3,Chief Marketing Officer,https://boards.eu.greenhouse.io/aztec/jobs/4292939101,MARKETING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
 cori1,Backend Blockchain Engineer,https://www.linkedin.com/jobs/view/3869617724/,ENGINEERING,COTI,https://coti.io/careers,layer2
@@ -90,7 +90,7 @@ coti2,Financial Controller,https://www.linkedin.com/jobs/view/3827498673/,FINANC
 polybase1,Senior Frontend Engineer,https://polybase.notion.site/Senior-Frontend-Engineer-TypeScript-React-06175a647cd2447881f2bc20dcdc6db7,ENGINEERING,Polybase,https://polybaselabs.com/careers,layer2
 polybase2,Head of Marketing,https://polybase.notion.site/Head-of-Marketing-fa176c7548b944d4870fa4bab9b58ddc,MARKETING,Polybase,https://polybaselabs.com/careers,layer2
 wasabi1,C#/.NET DEVELOPER,https://forms.monday.com/forms/c74d845ed91d937c4cea5d229e203cd5?r=use1,ENGINEERING,Wasabi Wallet,https://wasabiwallet.io/contribution.html,Wallet
-frame1,Lead Security Engineer,https://framelabs.notion.site/Lead-Security-Engineer-f790bb2de22f4b51b8e656080004389d,ENGINEERING,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
+frame1,Lead Security Engineer,https://framelabs.notion.site/Lead-Security-Engineer-f790bb2de22f4b51b8e656080004389d,SECURITY,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
 frame2,Senior Engineer,https://framelabs.notion.site/Senior-Engineer-a40cc11086af41db932e1419d2ddd82b,ENGINEERING,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
 frame3,Full-stack Engineer,https://framelabs.notion.site/Full-stack-Engineer-4ec2d924306e49998aef1f37cf47a918,ENGINEERING,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
 frame4,web3 Engineer,https://framelabs.notion.site/web3-Engineer-1298f5c79915463cb72693f2fea083d1,ENGINEERING,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
@@ -139,7 +139,7 @@ clique7,Backend & Infra Engineer,https://cliqueofficial.notion.site/Backend-Infr
 clique8,Senior Smart Contract Engineer,https://cliqueofficial.notion.site/Senior-Smart-Contract-Engineer-d55d2f4b35334f8da46360879dfefbe7,ENGINEERING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
 clique9,Developer Relations,https://cliqueofficial.notion.site/Developer-Relations-cc30192067d64c85b7506fb8923a7524,ENGINEERING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
 clique10,PWA Engineer,https://cliqueofficial.notion.site/PWA-Engineer-280cd46d71a94340beb5163bcccec04c,ENGINEERING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
-clique11,Testing Engineer,https://cliqueofficial.notion.site/Testing-Engineer-df4eb3b12c2e4fe7854edcaa83ff2054,ENGINEERING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
+clique11,Testing Engineer,https://cliqueofficial.notion.site/Testing-Engineer-df4eb3b12c2e4fe7854edcaa83ff2054,QA,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
 clique12,Full-Stack Engineer,https://cliqueofficial.notion.site/Full-Stack-Engineer-Browser-Extension-Specialist-04a192fd1b454be9bc2d2e9bf48a277b,ENGINEERING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
 sphereon1,Sales Executive,https://sphereon.com/job-openings-sales-executive/,SALES,Sphereon,https://sphereon.com/blockchain-job-openings-at-sphereon/,DID
 sphereon2,Developer (senior),https://sphereon.com/job-openings-for-software-developers/,ENGINEERING,Sphereon,https://sphereon.com/blockchain-job-openings-at-sphereon/,DID
@@ -175,10 +175,10 @@ storj3,Channel Sales Leader,https://storj.bamboohr.com/careers/75?source=aWQ9MTg
 privy1,Forward Deployed Engineer,https://jobs.ashbyhq.com/privy/be704bc4-74b7-45cc-9bab-bc150a6b2858,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 privy2,Senior/Staff Software Engineer - Backend,https://jobs.ashbyhq.com/privy/e3f2a7d0-0a54-46b3-97f6-e1d115ada3c6,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 privy3,Senior/Staff Software Engineer - Fullstack,https://jobs.ashbyhq.com/privy/ef1c0cbc-b9e0-4de7-a9a6-9eb880b05844,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
-privy4,Senior/Staff Software Engineer - Security,https://jobs.ashbyhq.com/privy/3615fe17-f10c-477e-a246-43eb8fac4cb1,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
+privy4,Senior/Staff Software Engineer - Security,https://jobs.ashbyhq.com/privy/3615fe17-f10c-477e-a246-43eb8fac4cb1,SECURITY,Privy,https://jobs.ashbyhq.com/privy,Other
 privy5,Senior/Staff Software Engineer - Backend,https://jobs.ashbyhq.com/privy/de86a764-558f-4729-8f7e-81371c80bb21,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 privy6,Senior/Staff Software Engineer - Fullstack,https://jobs.ashbyhq.com/privy/8aeff2e1-1fdf-4123-ae81-3867507c239e,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
-privy7,Senior/Staff Software Engineer - Security,https://jobs.ashbyhq.com/privy/c46f2751-8b05-472c-aaac-9b095baf41b5,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
+privy7,Senior/Staff Software Engineer - Security,https://jobs.ashbyhq.com/privy/c46f2751-8b05-472c-aaac-9b095baf41b5,SECURITY,Privy,https://jobs.ashbyhq.com/privy,Other
 privy8,Software Engineer - Go-to-Market,https://jobs.ashbyhq.com/privy/e870656b-975b-4bdf-8572-aba9b7b51366,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 privy9,General Application,https://jobs.ashbyhq.com/privy/f3ff2818-e67a-4999-a8da-a86079b218aa,OTHER,Privy,https://jobs.ashbyhq.com/privy,Other
 ethermail1,Junior Performance Marketing,https://ethermail.breezy.hr/p/41e88ec99d4101-junior-performance-marketing,MARKETING,EtherMail,https://ethermail.breezy.hr/,Other
@@ -200,7 +200,7 @@ O1labs5,Marketing and Communications Manager,https://boards.greenhouse.io/o1labs
 o1labs6,Protocol Product Manager,https://boards.greenhouse.io/o1labs/jobs/5127243004,PRODUCT,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
 heliax1,Research Cryptographer & Mathematician,https://heliax.dev/jobs/research-cryptographer-mathematician,CRYPTOGRAPHY,Heliax,https://heliax.dev/jobs,Labs
 heliax2,Distributed Systems Theorist,https://heliax.dev/jobs/distributed-systems-theorist,RESEARCH,Heliax,https://heliax.dev/jobs,Labs
-heliax3,Engineering Security Lead,https://heliax.dev/jobs/engineering-security-lead,ENGINEERING,Heliax,https://heliax.dev/jobs,Labs
+heliax3,Engineering Security Lead,https://heliax.dev/jobs/engineering-security-lead,SECURITY,Heliax,https://heliax.dev/jobs,Labs
 heliax4,Senior Engineer,https://heliax.dev/jobs/senior-engineer,ENGINEERING,Heliax,https://heliax.dev/jobs,Labs
 heliax5,Community Manager (Anoma/Namada),https://heliax.dev/jobs/community-manager,MARKETING,Heliax,https://heliax.dev/jobs,Labs
 heliax6,Anoma Application Researcher,https://heliax.dev/jobs/anoma-application-researcher,RESEARCH,Heliax,https://heliax.dev/jobs,Labs
@@ -216,7 +216,7 @@ xmtp1,Head of Legal,https://boards.greenhouse.io/xmtp/jobs/4987831004,LEGAL,XMTP
 pse1,ZK Circuits Engineer,https://jobs.lever.co/ethereumfoundation/7a7da3a9-a080-40a9-8aed-9e81641650a4,CRYPTOGRAPHY,Privacy & Scaling Explorations,https://jobs.lever.co/ethereumfoundation/?department=Ethereum Foundation&team=Privacy and Scaling Explorations,Labs
 P0x2,Russian Language Community Manager,https://jobs.lever.co/MantaNetwork/77e5faf9-7168-47ae-aae8-d518cf7f13e8,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
 P0x3,Cryptography Engineer,https://jobs.lever.co/MantaNetwork/4d5abd3e-80da-49dd-b576-8f0a1250f56a,CRYPTOGRAPHY,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x4,Senior Blockchain Security Engineer,https://jobs.lever.co/MantaNetwork/d06720a5-08ff-42c7-bb22-201d511676df,ENGINEERING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x4,Senior Blockchain Security Engineer,https://jobs.lever.co/MantaNetwork/d06720a5-08ff-42c7-bb22-201d511676df,SECURITY,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
 P0x5,Community Manager,https://jobs.lever.co/MantaNetwork/53c66d9f-ab2b-4270-bc30-aa1c3e912028,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
 P0x6,Community Manager (Korea),https://jobs.lever.co/MantaNetwork/cff03de4-ee16-4944-8d5a-2399db4d843c,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
 P0x7,Marketing Associate,https://jobs.lever.co/MantaNetwork/3e2cc613-3b39-47d5-96b4-da0a8f28a123,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
