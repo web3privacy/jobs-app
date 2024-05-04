@@ -65,7 +65,7 @@ const { banner, title, metaTitle, description, image } = Astro.props;
 						/>jobs.
 					</a>
 				</div>
-				
+
 				<nav
 					class="hidden flex-col flex-grow md:flex md:justify-end md:flex-row"
 				>
@@ -91,18 +91,23 @@ const { banner, title, metaTitle, description, image } = Astro.props;
 			</div>
 		</div>
 		<slot />
-		<footer
-			class="flex items-center justify-center w-full border-t border-white/10 bg-white"
+		<div
+			class="middle-pane-medium"
 		>
-			<div class="p-10 text-black text-center font-mono">
-				Are you passionate about privacy? Do what you love by joining
-				one of these companies contributing to privacy in the web3.
-				Empower everyone from developers to users with meaningful tech,
-				valuable use cases & advocacy. This is a project by <a
-					class="font-bold"
-					href="https://web3privacy.info/">Web3Privacy</a
-				>. 
-			</div>
-		</footer>
+			<footer
+				class="flex items-center justify-center w-full border border-white/20 bg-white/10 mt-10 md:mt-16"
+			>
+				<div class="p-10 text-white text-center font-mono">
+					Are you passionate about privacy? Do what you love by
+					joining one of these companies contributing to privacy in
+					the web3. Empower everyone from developers to users with
+					meaningful tech, valuable use cases & advocacy. This is a
+					project by <a
+						class="font-bold"
+						href="https://web3privacy.info/">Web3Privacy</a
+					>.
+				</div>
+			</footer>
+		</div>
 	</body>
 </html>
