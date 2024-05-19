@@ -1,9 +1,10 @@
 ---
 const { item } = Astro.props;
 import { genHeading } from "../utils/ascii";
+const jobcategory = item.jobcategory.toLowerCase();
 ---
 
-<div class=`w3pn-event-item ${item.jobcategory} all`>
+<div class=`w3pn-event-item ${jobcategory} all`>
     <div class="event-header flex">
         <div class="header-base sm:flex gap-4 grow px-3 py-2.5 sm:px-4 sm:py-3">
             <div class="leading-none flex justify-center text-[4px] text-white">
@@ -29,7 +30,7 @@ import { genHeading } from "../utils/ascii";
 
                 {
                     item.joburl && (
-                        <a href={item.joburl} class="button inverted">
+                        <a href={item.joburl} class="button">
                             <button>Apply</button>
                         </a>
                     )

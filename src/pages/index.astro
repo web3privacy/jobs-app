@@ -2,20 +2,31 @@
 import Layout from "../layouts/Layout.astro";
 //import jobs from "@data/jobsdata.json";
 import JobItem from "../components/JobItem.astro";
-import { db, Openings } from 'astro:db';
+import { db, Openings } from "astro:db";
 const jobs = await db.select().from(Openings);
 
 // Get all unique categories
-const categories = [...new Set(jobs.map((job) => job.jobcategory.toLowerCase()))];
+const categories = [
+	...new Set(jobs.map((job) => job.jobcategory.toLowerCase())),
+];
 ---
 
 <Layout title="Jobs.">
 	<main class="middle-pane-medium flex flex-col gap-8 md:flex-row">
-		<astro-side-filter class="flex flex-row md:w-64 md:flex-col w-full overflow-x-auto gap-2 ">
-			<button data-filter="all" class="hover:bg-white border-b border-white/20 hover:text-black min-w-44 min-h-10 bg-white/10 transition duration-[3000ms] ease-in-out transform">All</button>
+		<astro-side-filter
+			class="flex flex-row md:w-64 md:flex-col w-full overflow-x-auto gap-2 md:gap-5"
+		>
+			<button
+				data-filter="all"
+				class="hover:bg-white rounded-full border hover:text-black min-w-44 min-h-10 transition duration-[1000ms] ease-in-out transform"
+				>All</button
+			>
 			{
 				categories.map((category) => (
-					<button class="hover:bg-white uppercase hover:text-black min-w-44 min-h-10 bg-white/10 border-b border-white/20 transition duration-[3000ms] ease-in-out transform" data-filter={category}>
+					<button
+						class="hover:bg-white capitalize font-bold rounded-full hover:text-black min-w-44 min-h-10  transition duration-[1000ms] ease-in-out transform"
+						data-filter={category}
+					>
 						{category}
 					</button>
 				))
@@ -35,6 +46,10 @@ const categories = [...new Set(jobs.map((job) => job.jobcategory.toLowerCase()))
 			buttons.forEach((button) => {
 				const filter = button.dataset.filter;
 				button.addEventListener("click", () => {
+					buttons.forEach((button) => {
+						button.classList.remove("border");
+					});
+					button.classList.add("border");
 					jobItems.forEach((jobItem) => {
 						jobItem.classList.add("hidden");
 					});

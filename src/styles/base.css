@@ -71,7 +71,7 @@
     @apply cursor-pointer;
   }
   a.button button {
-    @apply bg-white px-4 py-2 uppercase text-black border text-sm hover:text-white hover:bg-black hover:border;
+    @apply bg-white px-4 py-2 uppercase text-black border text-sm hover:text-white hover:bg-black hover:border rounded-full border-white/20;
   }
   a.button.inverted button {
     @apply bg-black px-4 py-2 uppercase text-white border text-sm hover:text-black hover:bg-white hover:border;    
@@ -163,12 +163,9 @@
   }
   
   .w3pn-event-item {
-    @apply w-full border border-[#202020] mb-3;
+    @apply w-full py-4;
   }
 
-  .w3pn-event-item .header-base:hover {
-    @apply bg-[#0f0f0f]/30;
-  }
 
   /*.w3pn-event-item .event-header {
     @apply ;
