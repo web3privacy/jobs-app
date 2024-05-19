@@ -6,7 +6,7 @@ import { db, Openings } from 'astro:db';
 const jobs = await db.select().from(Openings);
 
 // Get all unique categories
-const categories = [...new Set(jobs.map((job) => job.jobcategory))];
+const categories = [...new Set(jobs.map((job) => job.jobcategory.toLowerCase()))];
 ---
 
 <Layout title="Jobs.">
@@ -15,7 +15,7 @@ const categories = [...new Set(jobs.map((job) => job.jobcategory))];
 			<button data-filter="all" class="hover:bg-white border-b border-white/20 hover:text-black min-w-44 min-h-10 bg-white/10 transition duration-[3000ms] ease-in-out transform">All</button>
 			{
 				categories.map((category) => (
-					<button class="hover:bg-white hover:text-black min-w-44 min-h-10 bg-white/10 border-b border-white/20 transition duration-[3000ms] ease-in-out transform" data-filter={category}>
+					<button class="hover:bg-white uppercase hover:text-black min-w-44 min-h-10 bg-white/10 border-b border-white/20 transition duration-[3000ms] ease-in-out transform" data-filter={category}>
 						{category}
 					</button>
 				))
