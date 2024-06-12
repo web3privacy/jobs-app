@@ -12,8 +12,6 @@ panther2,Full Stack Developer,https://wellfound.com/jobs/2227585-full-stack-deve
 panther3,Lead Front-end Developer,https://wellfound.com/jobs/2227586-lead-front-end-developer,ENGINEERING, Panther Protocol,https://wellfound.com/company/panther-protocol/jobs,DeFi
 webb1,Rust Engineer,https://wellfound.com/jobs/1863129-rust-engineer,ENGINEERING,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
 webb2,Senior Cryptography Engineer,https://wellfound.com/jobs/1241036-senior-cryptography-engineer,CRYPTOGRAPHY,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
-webb3,Chief Technology Officer ,https://wellfound.com/jobs/1635055-chief-technology-officer,ENGINEERING,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
-webb4,Product Manager ,https://wellfound.com/jobs/1654000-product-manager,PRODUCT,Webb,https://wellfound.com/company/webb-4/jobs,DeFi
 renegade1,Cryptography Engineer,https://jobs.lever.co/renegade/d356c32f-7089-4460-89ac-88e351c024cd,CRYPTOGRAPHY,Renegade,https://jobs.lever.co/renegade/,DeFi
 renegade2,Full-Stack Engineer,https://jobs.lever.co/renegade/797c3a64-eb3d-4cf6-94e7-9eb22d602fcb,ENGINEERING,Renegade,https://jobs.lever.co/renegade/,DeFi
 renegade3,Systems Engineer,https://jobs.lever.co/renegade/f2a7662d-3f0b-47a6-a9e6-c570e42cfb34,ENGINEERING,Renegade,https://jobs.lever.co/renegade/,DeFi
@@ -24,15 +22,13 @@ definer1,UI UX Graphic Designer,https://definer.freshteam.com/jobs/_xHgZlVUfKwQ/
 definer2,Full Stack Developer,https://definer.freshteam.com/jobs/vHT0qxyd93Mn/definer-full-stack-developer-remote,ENGINEERING,DeFiner,https://definer.freshteam.com/jobs,DeFi
 definer3,Entry Level Data Scientist,https://definer.freshteam.com/jobs/t-xkJgq0RfpW/entry-level-data-scientist,PRODUCT,DeFiner,https://definer.freshteam.com/jobs,DeFi
 beldex1,Community Manager,https://www.beldex.io/careers#En,MARKETING,Beldex,https://www.beldex.io/careers#En,Currency
-beldex2,Consultant / Advisor,https://www.beldex.io/careers#En,OPERATIONS,Beldex,https://www.beldex.io/careers#En,Currency
+beldex2,Consultant, Advisor,https://www.beldex.io/careers#En,OPERATIONS,Beldex,https://www.beldex.io/careers#En,Currency
 beldex3,Blockchain Core Developer,https://www.beldex.io/careers#En,ENGINEERING,Beldex,https://www.beldex.io/careers#En,Currency
-nym1,Rust Engineer,https://nym.teamtailor.com/jobs/3559512-rust-engineer,ENGINEERING,Nym,https://nym.teamtailor.com/,Infra
-nym2,Full Stack Engineer,https://nym.teamtailor.com/jobs/3559420-full-stack-engineer,ENGINEERING,Nym,https://nym.teamtailor.com/,Infra
-nym3,Lead JavaScript Developer,https://nym.teamtailor.com/jobs/3085170-lead-javascript-developer-open-source,ENGINEERING,Nym,https://nym.teamtailor.com/,Infra
-nym4,Creative Intern,https://nym.teamtailor.com/jobs/4302618-creative-intern,MARKETING,Nym,https://nym.teamtailor.com/,Infra
+nym1,Windows Application Developer,https://nym.teamtailor.com/jobs/4505740-windows-application-developer,ENGINEERING,Nym,https://nym.teamtailor.com/,Infra
 lit1,Support Engineer,https://jobs.lever.co/litprotocol/2260c34e-ca2b-4339-b1af-c05180a033f6,ENGINEERING,Lit,https://jobs.lever.co/litprotocol,Infra
+lit2,Growth Development Representative,http://jobs.litprotocol.com/apply/idZSKYPYZw/Growth-Development-Representative,MARKETING,Lit,https://jobs.lever.co/litprotocol,Infra
+lit3,Senior Software Engineer - Generalist / Rust,http://jobs.litprotocol.com/apply/nsUvEo9ews/Senior-Software-Engineer-Generalist-Rust,ENGINEERING,Lit,https://jobs.lever.co/litprotocol,Infra
 mysterium1,Senior Backend Developer,https://www.mysterium.network/senior-backend-developer,ENGINEERING,Mysterium Network,https://www.mysterium.network/careers,Infra
-automata1,DevOps Engineer,https://ata.careers/atanetwork/DevOps-Engineer-c151b3048c124fab9506ff2dd626983f,ENGINEERING,Automata Network,https://ata.careers/,Infra
 integritee1,Full-Stack Developer,https://jobs.smartrecruiters.com/IntegriteeAG/743999851317541-full-stack-developer,ENGINEERING,Integritee,https://www.integritee.network/about#join,Infra
 integritee2,Senior DevOps Engineer,https://jobs.smartrecruiters.com/IntegriteeAG/743999851317371-senior-devops-engineer,ENGINEERING,Integritee,https://www.integritee.network/about#join,Infra
 integritee3,Rust Core Developer,https://jobs.smartrecruiters.com/IntegriteeAG/743999851315676-rust-core-developer,ENGINEERING,Integritee,https://www.integritee.network/about#join,Infra
@@ -40,11 +36,9 @@ integritee4,Rust App-Developer,https://jobs.smartrecruiters.com/IntegriteeAG/743
 nulink1,Senior Researcher,https://www.nulink.org/careers/senior-researcher,RESEARCH,Nulink,https://www.nulink.org/careers,Infra
 nulink2,Senior Developer,https://www.nulink.org/careers/senior-developer,ENGINEERING,Nulink,https://www.nulink.org/careers,Infra
 nulink3,Marketing Manager,https://www.nulink.org/careers/marketing-manager,MARKETING,Nulink,https://www.nulink.org/careers,Infra
-horizen1,Marketing Intelligence Analyst,https://www.linkedin.com/jobs/view/3880434571/,MARKETING,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
-horizen2,Principal Engineer,https://www.linkedin.com/jobs/search/?currentJobId=3909789364,ENGINEERING,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
-horizen3,Web3 Business Development Manager - EMEA,https://www.linkedin.com/jobs/view/3874392728/,SALES,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
-horizen4,Senior Cryptographic Engineer,https://www.linkedin.com/jobs/view/3823031648/,CRYPTOGRAPHY,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
-horizen5,Web3 Business Development Manager - APAC,https://www.linkedin.com/jobs/view/3874904524/,SALES,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
+horizen1,Principal Engineer,https://www.linkedin.com/jobs/search/?currentJobId=3909789364,ENGINEERING,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
+Horizen2,Senior Cryptographic Engineer,https://www.linkedin.com/jobs/view/3823031648/,CRYPTOGRAPHY,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
+horizen3,Web3 Business Development Manager - APAC,https://www.linkedin.com/jobs/view/3874904524/,SALES,Horizen,https://www.horizen.io/careers/#section-open-positions,Infra
 penumbra1,General Application,https://boards.greenhouse.io/penumbralabs/jobs/4884093004,OTHER,Penumbra,https://boards.greenhouse.io/penumbralabs,Infra
 penumbra2,Frontend Engineer,https://boards.greenhouse.io/penumbralabs/jobs/5151794004,ENGINEERING,Penumbra,https://boards.greenhouse.io/penumbralabs,Infra
 mina1,Head of Product,https://apply.workable.com/mina-foundation/j/D4690C4B5D/,PRODUCT,Mina,https://apply.workable.com/mina-foundation/,Infra
@@ -54,18 +48,16 @@ mina4,Senior Technical Product Manager,https://apply.workable.com/mina-foundatio
 oasis1,Developer Relations Engineer,https://boards.greenhouse.io/oasisnetwork/jobs/4346429005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis2,Developer Relations Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4348296005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis3,Developer Relations Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4358939005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis4,Senior Software Engineer - Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis5,Senior Software Engineer - Smart Contracts,https://boards.greenhouse.io/oasisnetwork/jobs/4369218005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis4,Senior Software Engineer, Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis5,Senior Software Engineer, Smart Contracts,https://boards.greenhouse.io/oasisnetwork/jobs/4369218005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis6,Senior Software Engineer - Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395553005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis7,Senior Software Engineer - Core Platform,https://boards.greenhouse.io/oasisnetwork/jobs/4395552005,ENGINEERING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis8,Communications Lead,https://boards.greenhouse.io/oasisnetwork/jobs/4397677005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis9,Communications Lead,https://boards.greenhouse.io/oasisnetwork/jobs/4397675005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 oasis10,Content Writer,https://boards.greenhouse.io/oasisnetwork/jobs/4397672005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 Oasis11,Content Writer,https://boards.greenhouse.io/oasisnetwork/jobs/4397674005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis12,Events Coordinator,https://boards.greenhouse.io/oasisnetwork/jobs/4396828005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis13,Social Media Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4397687005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis14,Video Creator,https://boards.greenhouse.io/oasisnetwork/jobs/4369216005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
-oasis15,Project Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4402278005,OPERATIONS,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+Oasis12,Social Media Manager,https://boards.greenhouse.io/oasisnetwork/jobs/4397687005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
+oasis13,Video Creator,https://boards.greenhouse.io/oasisnetwork/jobs/4369216005,MARKETING,Oasis Network,https://boards.greenhouse.io/oasisnetwork,Infra
 edge1,General Application,https://docs.google.com/forms/d/e/1FAIpQLScL1y9P8me7OvgCAyxnktZfJTI1ymMKit4vihNogBA0LGLYjQ/viewform,OTHER,Edge,https://edge.network/en/careers/,Infra
 Edge2,Full stack engineer,https://forms.gle/4CVr9CvubFhD3jG17,ENGINEERING,Edge,https://edge.network/en/careers/,Infra
 Edge3,Front end engineer,https://forms.gle/4CVr9CvubFhD3jG17,ENGINEERING,Edge,https://edge.network/en/careers/,Infra
@@ -73,7 +65,8 @@ Edge4,New business manager,https://forms.gle/4CVr9CvubFhD3jG17,SALES,Edge,https:
 Edge5,Marketing director,https://forms.gle/4CVr9CvubFhD3jG17,MARKETING,Edge,https://edge.network/en/careers/,Infra
 Edge6,Senior PHP+Node engineer,https://forms.gle/4CVr9CvubFhD3jG17,ENGINEERING,Edge,https://edge.network/en/careers/,Infra
 Edge7,Product manager,https://forms.gle/4CVr9CvubFhD3jG17,PRODUCT,Edge,https://edge.network/en/careers/,Infra
-nomos1,Zero Knowledge Proof Researcher,https://boards.greenhouse.io/nomos/jobs/5664663,CRYPTOGRAPHY,Nomos,https://nomos.tech/join-us/,Infra
+nomos1,Distributed Systems (Network) Engineer,https://boards.greenhouse.io/nomos/jobs/6011319,ENGINEERING,Nomos,https://nomos.tech/join-us/,Infra
+nomos2,Engineer & Applied Researcher (Distributed Systems),https://boards.greenhouse.io/nomos/jobs/6011318,ENGINEERING,Nomos,https://nomos.tech/join-us/,Infra
 ritual1,Backend Engineer,https://boards.greenhouse.io/ritual/jobs/4083926007,ENGINEERING,Ritual,https://boards.greenhouse.io/ritual,Infra
 ritual2,Growth Engineer,https://boards.greenhouse.io/ritual/jobs/4324604007,MARKETING,Ritual,https://boards.greenhouse.io/ritual,Infra
 ritual3,Machine Learning Engineer,https://boards.greenhouse.io/ritual/jobs/4029531007,ENGINEERING,Ritual,https://boards.greenhouse.io/ritual,Infra
@@ -81,16 +74,19 @@ ritual4,Smart Contract Engineer,https://boards.greenhouse.io/ritual/jobs/4135728
 ritual5,General Application,https://boards.greenhouse.io/ritual/jobs/4135918007,OTHER,Ritual,https://boards.greenhouse.io/ritual,Infra
 ritual5,Research Intern,https://boards.greenhouse.io/ritual/jobs/4358496007,RESEARCH,Ritual,https://boards.greenhouse.io/ritual,Infra
 ritual6,Software Engineer Intern,https://boards.greenhouse.io/ritual/jobs/4068271007,ENGINEERING,Ritual,https://boards.greenhouse.io/ritual,Infra
-daml1,Product Design Manager - UX/UI,https://boards.greenhouse.io/digitalasset/jobs/5718042,PRODUCT,Daml,https://boards.greenhouse.io/digitalasset,Infra
-daml2,Product Design Manager - New York,https://boards.greenhouse.io/digitalasset/jobs/5718042,PRODUCT,Daml,https://boards.greenhouse.io/digitalasset,Infra
+daml1,Senior Software Support Engineer,https://boards.greenhouse.io/digitalasset/jobs/6008527,ENGINEERING,Daml,https://boards.greenhouse.io/digitalasset,Infra
+daml2,Software Support Engineer,https://boards.greenhouse.io/digitalasset/jobs/6009170,ENGINEERING,Daml,https://boards.greenhouse.io/digitalasset,Infra
 darkfi1,Developer,https://darkrenaissance.github.io/darkfi/dev/contrib/contrib.html#employment,ENGINEERING,DarkFi,https://darkrenaissance.github.io/darkfi/dev/contrib/contrib.html#employment,Infra
 aztec1,Proving Systems Security Engineer,https://boards.eu.greenhouse.io/aztec/jobs/4258022101,SECURITY,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
 aztec2,Ecosystem Lead,https://boards.eu.greenhouse.io/aztec/jobs/4303324101,PRODUCT,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
-aztec3,Chief Marketing Officer,https://boards.eu.greenhouse.io/aztec/jobs/4292939101,MARKETING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
-aztec4,Software Engineer (Noir Generalist),https://boards.eu.greenhouse.io/aztec/jobs/4328851101,ENGINEERING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
+aztec3,Software Engineer (Noir Generalist),https://boards.eu.greenhouse.io/aztec/jobs/4328851101,ENGINEERING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
+aztec4,Legal Intern,https://wellfound.com/jobs/3016498-legal-intern,LEGAL,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
+aztec5,Senior Brand Designer,https://wellfound.com/jobs/3019331-senior-brand-designer,MARKETING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
+aztec6,Product Marketing Lead,https://wellfound.com/jobs/3019330-product-marketing-lead,MARKETING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
+aztec7,Site Reliability Engineer,https://wellfound.com/jobs/3017606-site-reliability-engineer,ENGINEERING,Aztec,https://boards.eu.greenhouse.io/aztec,layer2
 cori1,Backend Blockchain Engineer,https://www.linkedin.com/jobs/view/3869617724/,ENGINEERING,COTI,https://coti.io/careers,layer2
 polybase1,Head of Marketing,https://polybase.notion.site/Head-of-Marketing-fa176c7548b944d4870fa4bab9b58ddc,MARKETING,Polybase,https://polybaselabs.com/careers,layer2
-wasabi1,C#/.NET DEVELOPER,https://forms.monday.com/forms/c74d845ed91d937c4cea5d229e203cd5?r=use1,ENGINEERING,Wasabi Wallet,https://wasabiwallet.io/contribution.html,Wallet
+wasabi1,C.NET DEVELOPER,https://forms.monday.com/forms/c74d845ed91d937c4cea5d229e203cd5?r=use1,ENGINEERING,Wasabi Wallet,https://wasabiwallet.io/contribution.html,Wallet
 frame1,Lead Security Engineer,https://framelabs.notion.site/Lead-Security-Engineer-f790bb2de22f4b51b8e656080004389d,SECURITY,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
 frame2,Senior Engineer,https://framelabs.notion.site/Senior-Engineer-a40cc11086af41db932e1419d2ddd82b,ENGINEERING,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
 frame3,Full-stack Engineer,https://framelabs.notion.site/Full-stack-Engineer-4ec2d924306e49998aef1f37cf47a918,ENGINEERING,Frame,https://framelabs.notion.site/Join-Frame-Labs-bf796117a50040159b61c092ad89870d,Wallet
@@ -103,12 +99,10 @@ ethernitycloud2,Python Developer,https://ethernity.cloud/python-developer.pdf,EN
 ethernitycloud3,DevOps Engineer,https://ethernity.cloud/devops.pdf,ENGINEERING,Ethernity Cloud,https://ethernity.cloud/company#careers,Computing
 chainreaction1,System V&V Engineer,https://chain-reaction.io/careers/co/tel-aviv-yokneam/DA.448/system-vv-engineer/all/,ENGINEERING,Chain Reaction,https://chain-reaction.io/careers/,Computing
 chainreaction2,Embedded Software Engineer,https://chain-reaction.io/careers/co/tel-aviv-yokneam/16.54C/embedded-software-engineer/all/,ENGINEERING,Chain Reaction,https://chain-reaction.io/careers/,Computing
-nillion1,Head of Treasury,https://apply.workable.com/nillion/j/1DC2C5B847/,FINANCIAL,nillion,https://apply.workable.com/nillion/,Computing
-nillion2,Senior Site Reliability Engineer ,https://apply.workable.com/nillion/j/3BAA97E447/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
-nillion3,General Counsel ,https://apply.workable.com/nillion/j/236F04047D/,LEGAL,nillion,https://apply.workable.com/nillion/,Computing
-nillion4,Solutions Engineer,https://apply.workable.com/nillion/j/448AEE2508/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
-nillion5,Decentralized Infrastructure Engineer,https://apply.workable.com/nillion/j/29B4D07606/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
-nillion6,Senior Distributed Systems Engineer,https://apply.workable.com/nillion/j/56D46BA9D6/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
+nillion1,Developer Relations Engineer (Remote, Europe),https://apply.workable.com/nillion/j/838609193E/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
+nillion2,Senior DevOps Engineer (Remote, AMER),https://apply.workable.com/nillion/j/3BAA97E447/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
+nillion3,Web3 Product Owner (Remote, Europe),https://apply.workable.com/nillion/j/125602E51C/,PRODUCT,nillion,https://apply.workable.com/nillion/,Computing
+nillion4,Senior Blockchain Engineer (Cosmos SDK),https://apply.workable.com/nillion/j/29B4D07606/,ENGINEERING,nillion,https://apply.workable.com/nillion/,Computing
 arpa1,Software Engineer,https://jobs.lever.co/ARPA/9c350538-5ab5-4e34-9aaf-15ecc91b784e,ENGINEERING,ARPA,https://jobs.lever.co/ARPA,Computing
 arpa2,Operations Analyst,https://jobs.lever.co/ARPA/e54fe7e5-931f-4175-8610-a73fd998cbbd,OPERATIONS,ARPA,https://jobs.lever.co/ARPA,Computing
 arpa3,Personal Assistant,https://jobs.lever.co/ARPA/64e198a0-652b-465f-85b6-2e3db1a865a0,OPERATIONS,ARPA,https://jobs.lever.co/ARPA,Computing
@@ -117,8 +111,6 @@ arpa5,Business Operations Associate,https://jobs.lever.co/ARPA/c9b402b9-c572-4ab
 arpa6,Global Growth & Marketing Analyst Manager,https://jobs.lever.co/ARPA/6d6376af-6c16-454b-ad9c-17ef6a9b9e1a,MARKETING,ARPA,https://jobs.lever.co/ARPA,Computing
 arpa7,Product Owner,https://jobs.lever.co/ARPA/4faa3385-ee1e-4d2b-992b-91c620bc6492,PRODUCT,ARPA,https://jobs.lever.co/ARPA,Computing
 foundation1,Head of Growth,https://foundation.xyz/jobs/#jobCollapse1,MARKETING,Foundation,https://foundation.xyz/jobs/,Hardware
-foundation2,Rust UI & Apps Engineer,https://foundation.xyz/jobs/#jobCollapse2,PRODUCT,Foundation,https://foundation.xyz/jobs/,Hardware
-foundation3,Embedded Rust Device Driver Engineer,https://foundation.xyz/jobs/#jobCollapse4,ENGINEERING,Foundation,https://foundation.xyz/jobs/,Hardware
 spruceid1,Quality Engineer,https://jobs.lever.co/sprucesystems/d05ebda3-49d3-46f2-8905-fb6b988de6ba,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid2,React Native Developer,https://jobs.lever.co/sprucesystems/dc335f4f-569d-4da8-a433-1f7d7a4aeef7,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid3,Site Reliability Engineer,https://jobs.lever.co/sprucesystems/cc0863b6-f021-4e9f-b45b-4b407fc7515a,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
@@ -126,8 +118,6 @@ spruceid4,Software Engineer - Android,https://jobs.lever.co/sprucesystems/d91291
 spruceid5,Software Engineer - Cross-Platform Rust,https://jobs.lever.co/sprucesystems/cf2bb70b-a33a-48d9-8d83-2f547850eaf4,ENGINEERING,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid6,Business Development - B2B,https://jobs.lever.co/sprucesystems/09636ad4-682c-42e5-b0f6-95718fad6b23,OPERATIONS,SpruceID,https://jobs.lever.co/sprucesystems,DID
 spruceid7,Business Development - Public Sector,https://jobs.lever.co/sprucesystems/5f8b67a7-1003-478c-9be0-44562ff17a0f,OPERATIONS,SpruceID,https://jobs.lever.co/sprucesystems,DID
-spruceid8,Senior Product Manager,https://jobs.lever.co/sprucesystems/72d43811-c6b0-478d-b647-b4caa03ce6d1,PRODUCT,SpruceID,https://jobs.lever.co/sprucesystems,DID
-spruceid9,Technical Success Manager,https://jobs.lever.co/sprucesystems/c29dc4c8-5fe9-4b2d-8e15-b412c6c3d1ec,PRODUCT,SpruceID,https://jobs.lever.co/sprucesystems,DID
 clique1,Marketing Lead,https://cliqueofficial.notion.site/Marketing-Lead-8a74a9cc9d064829bf947f8775130a2e,MARKETING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
 clique2,B2C Product Growth Lead,https://cliqueofficial.notion.site/B2C-Product-Growth-Lead-a51db100789d4d349c8392aedb26481e,MARKETING,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
 clique3,B2B Product Manager,https://cliqueofficial.notion.site/B2B-Product-Manager-dd5d13d9e56e49ee8d1f03eddc05eebe,PRODUCT,Clique,https://cliqueofficial.notion.site/Clique-Careers-baf09f37cf2f412dad6fff88e61854b2,DID
@@ -151,7 +141,6 @@ chainport2,Cyber Security Specialist,https://www.chainport.io/jobs,SECURITY,Chai
 chainport3,Marketing Manager,https://www.chainport.io/jobs,MARKETING,Chainport,https://www.chainport.io/jobs,Bridge
 chainport4,QA & Support Lead Engineer,https://www.chainport.io/jobs,ENGINEERING,Chainport,https://www.chainport.io/jobs,Bridge
 chainport5,Senior Front-End Engineer,https://www.chainport.io/jobs,ENGINEERING,Chainport,https://www.chainport.io/jobs,Bridge
-waku1,Protocol Engineer - Chat Messaging,https://boards.greenhouse.io/waku/jobs/5607301,ENGINEERING,Waku,https://waku.org/join-us/,Messenging
 chromium1,Business Development,https://carbon.website/job/business-development/,SALES,Carbon,https://carbon.website/jobs/,Browser
 chromium2,UX Designer,https://carbon.website/job/ux-designer/,PRODUCT,Carbon,https://carbon.website/jobs/,Browser
 chromium3,Chromium Developer,https://carbon.website/job/chromium-developer/,ENGINEERING,Carbon,https://carbon.website/jobs/,Browser
@@ -159,28 +148,22 @@ puma1,iOS Engineer,https://www.pumabrowser.com/careers/ios-engineer,ENGINEERING,
 puma2,Android Engineer,https://www.pumabrowser.com/careers/android-engineer,ENGINEERING,Puma Browser,https://www.pumabrowser.com/careers,Browser
 puma3,Head of Memes & Growth ,https://www.pumabrowser.com/careers/head-of-memes-growth,MARKETING,Puma Browser,https://www.pumabrowser.com/careers,Browser
 grapheneos1,GrapheneOS Remote Developer,https://grapheneos.org/hiring,ENGINEERING,Graphene OS,https://grapheneos.org/hiring,OS
-codex1,Technical Business Development Lead,https://boards.greenhouse.io/codex/jobs/5453088,SALES,Codex,https://codex.storage/join-us,Storage
+codex1,Senior Full-Stack Engineer,https://boards.greenhouse.io/codex/jobs/5737912,ENGINEERING,Codex,https://codex.storage/join-us,Storage
 codex2,Zero Knowledge Researcher - Codex,https://boards.greenhouse.io/codex/jobs/5921381,CRYPTOGRAPHY,Codex,https://codex.storage/join-us,Storage
+codex3,Students Program Codex,https://boards.greenhouse.io/codex/jobs/4603013,OTHER,Codex,https://codex.storage/join-us,Storage
 swarm1,Researcher & Developer (GO and Solidity),https://www.ethswarm.org/jobs/research-team-researcher-developer,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
-swarm2,QA Engineer,https://www.ethswarm.org/jobs/qa-engineer,QA,Swarm,https://www.ethswarm.org/jobs,Storage
-swarm3,Senior Software Engineer,https://www.ethswarm.org/jobs/senior-software-engineer-go,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
-swarm4,Grant Manager,https://www.ethswarm.org/jobs/grant-manager,OPERATIONS,Swarm,https://www.ethswarm.org/jobs,Storage
-swarm5,Browser extension developer,https://www.ethswarm.org/jobs/browser-extension-developer,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
-swarm6,JavaScript Developer,https://www.ethswarm.org/jobs/javascript-developer-fairdrive,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
+Swarm2,Senior Software Engineer,https://www.ethswarm.org/jobs/senior-software-engineer-go,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
+Swarm3,Grant Manager,https://www.ethswarm.org/jobs/grant-manager,OPERATIONS,Swarm,https://www.ethswarm.org/jobs,Storage
+Swarm4,Browser extension developer,https://www.ethswarm.org/jobs/browser-extension-developer,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
+swarm5,JavaScript Developer,https://www.ethswarm.org/jobs/javascript-developer-fairdrive,ENGINEERING,Swarm,https://www.ethswarm.org/jobs,Storage
 storj1,Site Reliability - DevOps Engineer,https://storj.bamboohr.com/careers/74?source=aWQ9MzM=,ENGINEERING,Storj,https://www.storj.io/careers#open-positions,Storage
-storj2,Channel Sales Leader,https://storj.bamboohr.com/careers/75?source=aWQ9MTg=,SALES,Storj,https://www.storj.io/careers#open-positions,Storage
 privy1,Forward Deployed Engineer,https://jobs.ashbyhq.com/privy/be704bc4-74b7-45cc-9bab-bc150a6b2858,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 Privy2,Senior/Staff Software Engineer - Security,https://jobs.ashbyhq.com/privy/3615fe17-f10c-477e-a246-43eb8fac4cb1,SECURITY,Privy,https://jobs.ashbyhq.com/privy,Other
 Privy3,Senior/Staff Software Engineer - Backend,https://jobs.ashbyhq.com/privy/de86a764-558f-4729-8f7e-81371c80bb21,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 Privy4,Senior/Staff Software Engineer - Fullstack,https://jobs.ashbyhq.com/privy/8aeff2e1-1fdf-4123-ae81-3867507c239e,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
 Privy5,Senior/Staff Software Engineer - Security,https://jobs.ashbyhq.com/privy/c46f2751-8b05-472c-aaac-9b095baf41b5,SECURITY,Privy,https://jobs.ashbyhq.com/privy,Other
-Privy6,Software Engineer - Go-to-Market,https://jobs.ashbyhq.com/privy/e870656b-975b-4bdf-8572-aba9b7b51366,ENGINEERING,Privy,https://jobs.ashbyhq.com/privy,Other
-Privy7,General Application,https://jobs.ashbyhq.com/privy/f3ff2818-e67a-4999-a8da-a86079b218aa,OTHER,Privy,https://jobs.ashbyhq.com/privy,Other
-ethermail1,Junior Performance Marketing,https://ethermail.breezy.hr/p/41e88ec99d4101-junior-performance-marketing,MARKETING,EtherMail,https://ethermail.breezy.hr/,Other
+Privy6,General Application,https://jobs.ashbyhq.com/privy/f3ff2818-e67a-4999-a8da-a86079b218aa,OTHER,Privy,https://jobs.ashbyhq.com/privy,Other
 ethermail2,Sales Associate,https://ethermail.breezy.hr/p/58dbd4f0073201-sales-associate,SALES,EtherMail,https://ethermail.breezy.hr/,Other
-Ethermail3,Senior iOS Developer,https://ethermail.breezy.hr/p/eebf0c43212401-senior-ios-developer,ENGINEERING,EtherMail,https://ethermail.breezy.hr/,Other
-Ethermail4,Web3 Community and CRM Manager,https://ethermail.breezy.hr/p/7b7fde48b97d01-web3-community-and-crm-manager,MARKETING,EtherMail,https://ethermail.breezy.hr/,Other
-Ethermail5,Head Finance & Accounting,https://ethermail.breezy.hr/p/5510fef8101401-head-finance-accounting,FINANCIAL,EtherMail,https://ethermail.breezy.hr/,Other
 Ethermail6,Backend Developer,https://ethermail.breezy.hr/p/022c5c5d57a101-backend-developer,ENGINEERING,EtherMail,https://ethermail.breezy.hr/,Other
 Ethermail7,Data Analyst,https://ethermail.breezy.hr/p/570edb9f2c8201-data-analyst,RESEARCH,EtherMail,https://ethermail.breezy.hr/,Other
 ethermail8,Enterprise Marketing & Event Success Specialist,https://ethermail.breezy.hr/p/65fdc0a8414f01-enterprise-marketing-event-success-specialist,MARKETING,EtherMail,https://ethermail.breezy.hr/,Other
@@ -189,14 +172,9 @@ mailchain2,General Application,https://mailchain.xyz/careers?gh_jid=4091945101,O
 rotki1,Python Backend Developer,https://rotki.com/jobs/backend,ENGINEERING,Rotki,https://rotki.com/jobs/,Other
 rotki2,Vue.js - TypeScript Developer,https://rotki.com/jobs/frontend,ENGINEERING,Rotki,https://rotki.com/jobs/,Other
 rotki3,UI/UX designer,https://rotki.com/jobs/ui-ux,PRODUCT,Rotki,https://rotki.com/jobs/,Other
-o1labs1,ZK Cryptography Engineer,https://boards.greenhouse.io/o1labs/jobs/5149186004,CRYPTOGRAPHY,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs2,Ecosystem Exploration Engineer,https://boards.greenhouse.io/o1labs/jobs/5141177004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs3,Engineering manager - Exploration team,https://boards.greenhouse.io/o1labs/jobs/5150922004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs4,Protocol Engineer,https://boards.greenhouse.io/o1labs/jobs/4082783004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs5,ZK Applications Solutions Architect,https://boards.greenhouse.io/o1labs/jobs/5138503004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs6,Marketing and Communications Manager,https://boards.greenhouse.io/o1labs/jobs/5091373004,MARKETING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs7,Protocol Product Manager,https://boards.greenhouse.io/o1labs/jobs/5127243004,PRODUCT,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
-O1labs8,SDK Engineer,https://boards.greenhouse.io/o1labs/jobs/4088137004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
+O1labs1,Engineering manager - Exploration team,https://boards.greenhouse.io/o1labs/jobs/5150922004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
+O1labs2,Protocol Engineer,https://boards.greenhouse.io/o1labs/jobs/4082783004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
+O1labs3,SDK Engineer,https://boards.greenhouse.io/o1labs/jobs/4088137004,ENGINEERING,O(1) Labs,https://boards.greenhouse.io/o1labs,Labs
 heliax1,Research Cryptographer & Mathematician,https://heliax.dev/jobs/research-cryptographer-mathematician,CRYPTOGRAPHY,Heliax,https://heliax.dev/jobs,Labs
 heliax2,Distributed Systems Theorist,https://heliax.dev/jobs/distributed-systems-theorist,RESEARCH,Heliax,https://heliax.dev/jobs,Labs
 heliax3,Engineering Security Lead,https://heliax.dev/jobs/engineering-security-lead,SECURITY,Heliax,https://heliax.dev/jobs,Labs
@@ -208,37 +186,31 @@ heliax8,General Application,https://docs.google.com/forms/d/e/1FAIpQLSfTfzqkyp01
 chainsafe1,Developer Relations - Sygma,https://boards.greenhouse.io/chainsafesystems/jobs/5130627004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
 Chainsafe2,Head of Protocol Engineering,https://boards.greenhouse.io/chainsafesystems/jobs/5087051004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
 Chainsafe3,Protocol Engineer - Gossamer/Polkadot (Go),https://boards.greenhouse.io/chainsafesystems/jobs/5095606004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
-Chainsafe4,Senior Product Manager - Lodestar/Ethereum,https://boards.greenhouse.io/chainsafesystems/jobs/5140281004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
-Chainsafe5,Blockchain ZK Engineer (Cross Chain Interoperability Protocol),https://boards.greenhouse.io/chainsafesystems/jobs/5164223004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
-chainsafe6,Web3 SRE Lead - Bridge Ops Team,https://boards.greenhouse.io/chainsafesystems/jobs/5004247004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
-chainsafe7,Office & Operations Coordinator ,https://boards.greenhouse.io/chainsafesystems/jobs/5088148004,OPERATIONS,ChainSafe,https://chainsafe.io/careers#cta,Labs
-synonym1,Developer,https://synonym.to/team,ENGINEERING,Synonym,https://synonym.to/team,Labs
-xmtp1,Head of Legal,https://boards.greenhouse.io/xmtp/jobs/4987831004,LEGAL,XMTP,https://blog.xmtp.com/careers/,Labs
-xmtp2,Senior/Staff Software Engineer,https://boards.greenhouse.io/xmtp/jobs/5158238004?ref=blog.xmtp.com,ENGINEERING,XMTP,https://blog.xmtp.com/careers/,Labs
-p0x1,Russian Language Community Manager,https://jobs.lever.co/MantaNetwork/77e5faf9-7168-47ae-aae8-d518cf7f13e8,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x2,Cryptography Engineer,https://jobs.lever.co/MantaNetwork/4d5abd3e-80da-49dd-b576-8f0a1250f56a,CRYPTOGRAPHY,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x3,Senior Blockchain Engineer (Rollup),https://jobs.lever.co/MantaNetwork/b77c1844-8018-4a7c-a34b-61b865fca7ce,ENGINEERING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x4,Senior Blockchain Security Engineer,https://jobs.lever.co/MantaNetwork/d06720a5-08ff-42c7-bb22-201d511676df,SECURITY,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x5,Community Manager,https://jobs.lever.co/MantaNetwork/53c66d9f-ab2b-4270-bc30-aa1c3e912028,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x6,Community Manager (Korea),https://jobs.lever.co/MantaNetwork/cff03de4-ee16-4944-8d5a-2399db4d843c,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x7,Marketing Associate,https://jobs.lever.co/MantaNetwork/3e2cc613-3b39-47d5-96b4-da0a8f28a123,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x8,Technical Content Writer,https://jobs.lever.co/MantaNetwork/ee99ecca-aafa-4505-92bb-d57df151c2db,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-P0x9,Strategy Officer,https://jobs.lever.co/MantaNetwork/48981509-5b7e-4ebf-a9d7-6ad972e62e94,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
-p0x10,Product Manager,https://jobs.lever.co/MantaNetwork/04581756-7424-4cd5-8c0e-6a2e294374ac,PRODUCT,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+Chainsafe4,Blockchain ZK Engineer (Cross Chain Interoperability Protocol),https://boards.greenhouse.io/chainsafesystems/jobs/5164223004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
+Chainsafe5,Web3 SRE Lead - Bridge Ops Team,https://boards.greenhouse.io/chainsafesystems/jobs/5004247004,ENGINEERING,ChainSafe,https://chainsafe.io/careers#cta,Labs
+synonym1,DevOps Engineer,https://synonym.to/team,ENGINEERING,Synonym,https://synonym.to/team,Labs
+synonym2,Marketing Manager,https://synonym.to/team,MARKETING,Synonym,https://synonym.to/team,Labs
+P0x1,Cryptography Engineer,https://jobs.lever.co/MantaNetwork/4d5abd3e-80da-49dd-b576-8f0a1250f56a,CRYPTOGRAPHY,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x2,Senior Blockchain Engineer (Rollup),https://jobs.lever.co/MantaNetwork/b77c1844-8018-4a7c-a34b-61b865fca7ce,ENGINEERING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x3,Senior Blockchain Security Engineer,https://jobs.lever.co/MantaNetwork/d06720a5-08ff-42c7-bb22-201d511676df,SECURITY,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x4,Community Manager,https://jobs.lever.co/MantaNetwork/53c66d9f-ab2b-4270-bc30-aa1c3e912028,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x5,Community Manager (Korea),https://jobs.lever.co/MantaNetwork/cff03de4-ee16-4944-8d5a-2399db4d843c,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x6,Marketing Associate,https://jobs.lever.co/MantaNetwork/3e2cc613-3b39-47d5-96b4-da0a8f28a123,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x7,Technical Content Writer,https://jobs.lever.co/MantaNetwork/ee99ecca-aafa-4505-92bb-d57df151c2db,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+P0x8,Strategy Officer,https://jobs.lever.co/MantaNetwork/48981509-5b7e-4ebf-a9d7-6ad972e62e94,MARKETING,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
+p0x9,Product Manager,https://jobs.lever.co/MantaNetwork/04581756-7424-4cd5-8c0e-6a2e294374ac,PRODUCT,p0x Labs,https://jobs.lever.co/MantaNetwork,Labs
 nilfoundation1,C++ Developer (Cryptography),https://nil.foundation/careers/jobs?jobId=P1ZaI_Tx7oei,CRYPTOGRAPHY,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation2,Cryptography Researcher,,RESEARCH,nil Foundation,https://nil.foundation/careers/jobs,Labs
+Nilfoundation2,Cryptography Researcher,https://nil.foundation/careers/jobs?jobId=eKBawSyO9EDP,RESEARCH,nil Foundation,https://nil.foundation/careers/jobs,Labs
 Nilfoundation3,Decentralized Applications Developer,https://nil.foundation/careers/jobs?jobId=k-rjW4Y07Oce,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
 Nilfoundation4,Decentralized Systems Researcher,https://nil.foundation/careers/jobs?jobId=EsCDSlJdtwl5,RESEARCH,nil Foundation,https://nil.foundation/careers/jobs,Labs
 Nilfoundation5,Engineering Director - Engineering manager,https://nil.foundation/careers/jobs?jobId=P028ELR8t25y,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
 Nilfoundation6,Research Analyst,https://nil.foundation/careers/jobs?jobId=lvuCF87ZKVN6,RESEARCH,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation7,Senior C++ Developer,https://nil.foundation/careers/jobs?jobId=IpNIuwrbvK2s,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation8,Senior Go Developer,https://nil.foundation/careers/jobs?jobId=i6jHoMRVSmtn,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation9,Developer Advocate,https://nil.foundation/careers/jobs?jobId=G6kpKrDN9dEJ,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation10,Head of DevRel,https://nil.foundation/careers/jobs?jobId=ED8N-i_eiVbU,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation11,Head Of Business Development,https://nil.foundation/careers/jobs?jobId=Ov_R2SNwii0-,SALES,nil Foundation,https://nil.foundation/careers/jobs,Labs
-Nilfoundation12,Head of Ecosystem,https://nil.foundation/careers/jobs?jobId=f5KSNsuUZ99v,MARKETING,nil Foundation,https://nil.foundation/careers/jobs,Labs
+Nilfoundation7,Senior Go Developer,https://nil.foundation/careers/jobs?jobId=i6jHoMRVSmtn,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
+Nilfoundation8,Developer Advocate,https://nil.foundation/careers/jobs?jobId=G6kpKrDN9dEJ,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
+Nilfoundation9,Head of DevRel,https://nil.foundation/careers/jobs?jobId=ED8N-i_eiVbU,ENGINEERING,nil Foundation,https://nil.foundation/careers/jobs,Labs
+Nilfoundation10,Head Of Business Development,https://nil.foundation/careers/jobs?jobId=Ov_R2SNwii0-,SALES,nil Foundation,https://nil.foundation/careers/jobs,Labs
 vac1,Libp2p Networking Engineer,https://boards.greenhouse.io/logos/jobs/5688077,ENGINEERING,Vac,https://vac.dev/join-us,Other
-vac2,Test Automation Engineer (Vac QA),https://boards.greenhouse.io/vac/jobs/5700917,ENGINEERING,Vac,https://vac.dev/join-us,Other
+vac2,Software Developer in Test (Rust or Go),https://boards.greenhouse.io/vac/jobs/5700917,ENGINEERING,Vac,https://vac.dev/join-us,Other
 Vac3,Zero Knowledge Research Engineer (Vac ACZ),https://boards.greenhouse.io/logos/jobs/5543923,RESEARCH,Vac,https://vac.dev/join-us,Other
 Vac4,Zero Knowledge Research Engineer (Vac Nescience),https://boards.greenhouse.io/logos/jobs/5543854,RESEARCH,Vac,https://vac.dev/join-us,Other
 vac5,Zero Knowledge Researcher (Vac Nescience),https://boards.greenhouse.io/logos/jobs/4460860,RESEARCH,Vac,https://vac.dev/join-us,Other
@@ -249,23 +221,20 @@ zama3,FPGA - Hardware Engineer,https://jobs.zama.ai/companies/zama/jobs/rtl-desi
 zama4,Business Development Director - Financial Institutions,https://jobs.zama.ai/companies/zama/jobs/business-development-director-us-blockchain_paris,SALES,Zama,https://jobs.zama.ai/,Infra
 zama5,Homomorphic Encryption Researcher,https://jobs.zama.ai/companies/zama/jobs/senior-researcher-cryptography_paris,RESEARCH,Zama,https://jobs.zama.ai/,Infra
 zama6,Marketing Lead - Blockchain,https://jobs.zama.ai/companies/zama/jobs/marketing-lead-blockchain_paris,MARKETING,Zama,https://jobs.zama.ai/,Infra
+zama7,Blockchain Engineer, Solana,https://jobs.zama.ai/companies/zama/jobs/blockchain-engineer-solana_paris,ENGINEERING,Zama,,
+zama8,Full Stack Developer,https://jobs.zama.ai/companies/zama/jobs/senior-full-stack-developer-zama-console_paris,ENGINEERING,Zama,,
+zama9,Solutions Architect, Blockchain,https://jobs.zama.ai/companies/zama/jobs/project-engineering-manager_paris,ENGINEERING,Zama,,
+zama10,Business Development Director, Decentralized & Collaborative AI,https://jobs.zama.ai/companies/zama/jobs/business-development-director-decentralized-collaborative-ai_paris,SALES,Zama,,
 kelp1,Web Developer,https://kelp.notion.site/Web-Developer-Svelte-SvelteKit-GraphQL-Tailwind-100-Remote-4a890c0a7c6c4208a68ff2eb25648c46,ENGINEERING,Kelp,https://kelp.notion.site/Kelp-Anagolay-Careers-c27cebdedf29461abda591bc23bad3f6,DID
 kelp2,Backend Developer,https://kelp.notion.site/Backend-Developer-TypeScript-GraphQL-NodeJS-100-Remote-c2eb6a29bc8e41dab370d5e8f0c83327,ENGINEERING,Kelp,https://kelp.notion.site/Kelp-Anagolay-Careers-c27cebdedf29461abda591bc23bad3f6,DID
 kelp3,Marketing & Community Architect,https://kelp.notion.site/Marketing-Community-Architect-351c7c1ffcc24a2c9e1a13a48b47cc42,MARKETING,Kelp,https://kelp.notion.site/Kelp-Anagolay-Careers-c27cebdedf29461abda591bc23bad3f6,DID
 kelp4,Technical Writer,https://kelp.notion.site/Technical-Writer-1807fce2f97b4ba19da2454931ad5224,MARKETING,Kelp,https://kelp.notion.site/Kelp-Anagolay-Careers-c27cebdedf29461abda591bc23bad3f6,DID
-cheqd1,Head of Sales,https://careers.cheqd.io/jobs/SWe0EVpvHKqR/head-of-sales-bd-remote,SALES,Cheqd,https://careers.cheqd.io/jobs,DID
-cheqd2,Senior Full Stack Engineer,https://careers.cheqd.io/jobs/qQtSrlFazgQ3/senior-full-stack-engineer-remote,ENGINEERING,Cheqd,https://careers.cheqd.io/jobs,DID
-cheqd3,Test Automation & Quality Assurance Engineer,https://careers.cheqd.io/jobs/L25O5vqsXfcW/test-automation-quality-assurance-engineer,ENGINEERING,Cheqd,https://careers.cheqd.io/jobs,DID
 transferchain1,Backend Developer,https://angel.co/company/transferchain/jobs/668540-backend-developer,ENGINEERING,TransferChain,https://transferchain.io/careers,Storage
 transferchain2,Frontend Developer,https://angel.co/company/transferchain/jobs/668542-frontend-developer,ENGINEERING,TransferChain,https://transferchain.io/careers,Storage
 transferchain3,DevOps Engineer,https://angel.co/company/transferchain/jobs/770496-devops-engineer,ENGINEERING,TransferChain,https://transferchain.io/careers,Storage
 transferchain4,Market Segmentation and Customer Retention Specialist,https://angel.co/company/transferchain/jobs/676453-market-segmentation-and-customer-retention-specialist,MARKETING,TransferChain,https://transferchain.io/careers,Storage
 transferchain5,General Application,https://angel.co/company/transferchain/jobs/673388-general-application,OTHER,TransferChain,https://transferchain.io/careers,Storage
 doxychain1,General Application,https://join.com/companies/doxychain/spontaneous-application,OTHER,DoxyChain,https://join.com/companies/doxychain,Other
-osom1,Junior Software Engineer,https://jobs.lever.co/osomprivacy/ba042a15-eee4-410a-9c8c-7cb01d1e8391,ENGINEERING,OSOM,https://www.osomprivacy.com/jobs,Labs
-osom2,Modem Specialist,https://jobs.lever.co/osomprivacy/220b2725-2787-4e01-a430-ecf4a1e5b628,ENGINEERING,OSOM,https://www.osomprivacy.com/jobs,Labs
-osom3,Modem - Cellular System Test Engineer,https://jobs.lever.co/osomprivacy/acf278c2-592c-4b9d-b351-3473313f7135,ENGINEERING,OSOM,https://www.osomprivacy.com/jobs,Labs
-osom4,Program Manager - Software,https://jobs.lever.co/osomprivacy/03f3bc37-11f7-4938-8d29-04c55ce1dc9f,ENGINEERING,OSOM,https://www.osomprivacy.com/jobs,Labs
 fyeo1, Senior Cryptographer,https://www.fyeo.io/careers-senior-cryptographer,CRYPTOGRAPHY,FYEO,https://www.fyeo.io/careers,DID
 fyeo2,Senior Blockchain Developer,https://www.fyeo.io/careers-senior-blockchain-developer,ENGINEERING,FYEO,https://www.fyeo.io/careers,DID
 fyeo3, React/NodeJS/GraphQL Engineer,https://www.fyeo.io/careers-react-nodejs-graphql-engineer,ENGINEERING,FYEO,https://www.fyeo.io/careers,DID
@@ -277,3 +246,22 @@ fyeo8,Head of Growth,https://www.fyeo.io/careers-head-of-growth,MARKETING,FYEO,h
 fyeo9, Product Manager - FYEO Identity,https://www.fyeo.io/careers-product-manager-fyeo-id,PRODUCT,FYEO,https://www.fyeo.io/careers,DID
 fyeo10, Product Manager - FYEO Domain Intelligence,https://www.fyeo.io/careers-product-manager-fyeo-di,PRODUCT,FYEO,https://www.fyeo.io/careers,DID
 fyeo11,Business Development Lead,https://www.fyeo.io/careers-blockchain-business-development-lead,SALES,FYEO,https://www.fyeo.io/careers,DID
+0xbow1,Web3 Senior Front End Engineer,https://web3.career/senior-front-end-engineer-0xbow/68422,ENGINEERING,0xbow,https://www.0xbow.io/,DeFi
+0xbow2,Web3 Senior Software Engineer (Solidity),https://web3.career/senior-software-engineer-solidity-0xbow/68419,ENGINEERING,0xbow,https://www.0xbow.io/,DeFi
+0xbow3,Senior Crypto Intelligence Analyst,https://web3.career/senior-crypto-intelligence-analyst-0xbow/68426,RESEARCH,0xbow,https://www.0xbow.io/,DeFi
+aleo1,Social Lead,https://aleo.org/job/social-lead/,MARKETING,Aleo,https://aleo.org/careers/,Infra
+fileverse1,Frontend Blockchain Developer,https://wellfound.com/jobs/2927110-frontend-blockchain-developer,ENGINEERING,Fileverse,https://wellfound.com/company/fileverse-1/jobs,Storage
+zCloak1,Cryptography Writer,https://wellfound.com/jobs/2350719-cryptography-writer,RESEARCH,zCloak Network,https://wellfound.com/company/zcloak-network/jobs,DID
+mask1,Overseas Technical Lead,https://wellfound.com/jobs/1911791-overseas-technical-lead,ENGINEERING,Mask Network,https://wellfound.com/company/mask-network/jobs,Social
+cheqd1,Head of Sales/BD,https://wellfound.com/jobs/3005701-head-of-sales-bd,SALES,cheqd,https://wellfound.com/company/cheqd/jobs,DID
+pse1,ZK Circuits Engineer,https://jobs.lever.co/ethereumfoundation/7a7da3a9-a080-40a9-8aed-9e81641650a4,ENGINEERING,Privacy & Scaling Explorations,https://jobs.lever.co/ethereumfoundation/?department=Ethereum Foundation&team=Privacy and Scaling Explorations,Infra
+automata1,Business Development Manager,https://ata.careers/atanetwork/Business-Development-Manager-6466f2837d0e4a6c91b75f10dbf6fd89,SALES,Automata,https://ata.careers/,Infra
+gnosisguild1,Applied Cryptographer,https://web3.career/applied-cryptographer-gnosis-guild/68341,RESEARCH,Gnosis Guild,https://applicantai.com/gnosis-guild/applied-cryptographer/668#apply,Infra
+concordium1,Software Test Engineer,https://www.linkedin.com/jobs/search/?currentJobId=3915769275,ENGINEERING,Concordium,https://www.linkedin.com/company/concordium/jobs/,Infra
+status1,Crypto Treasury Operations Specialist,https://status.app/jobs/5937260,FINANCE,Status,https://status.app/jobs,Infra
+status2,L2 Business Development & Partnerships Lead,https://status.app/jobs/5929599,SALES,Status,https://status.app/jobs,Infra
+status3,L2 Lead Developer,https://status.app/jobs/5931357,ENGINEERING,Status,https://status.app/jobs,Infra
+status4,Senior DevOps Engineer (Blockchain),https://status.app/jobs/5911639,ENGINEERING,Status,https://status.app/jobs,Infra
+iExec1,Software Engineer Backend Web3 (Java),https://www.welcometothejungle.com/en/companies/iexec/jobs/software-engineer-backend-web3-java-f-h?q=38ce96f7dd7d9a0acb570b8bff573ce3&o=8237e781-f3b5-43e5-a7a8-01d1f5e6669a,ENGINEERING,iExec,https://www.welcometothejungle.com/en/companies/iexec/jobs,Marketplace
+iExec2,Senior Software Engineer Backend (Java),https://www.welcometothejungle.com/en/companies/iexec/jobs/senior-software-engineer-backend-java-f-h_lyon?q=38ce96f7dd7d9a0acb570b8bff573ce3&o=23425165-3ad1-496d-9b76-869c098b147a,ENGINEERING,iExec,https://www.welcometothejungle.com/en/companies/iexec/jobs,Marketplace
+hopr1,Talent Pool,https://hopr.jobs.personio.de/job/751639?display=en,OTHER,HOPR,https://hoprnet.org/about-us/career,Infra
