@@ -2222,5 +2222,13 @@
     "companyname": "FYEO",
     "companyurl": "https://www.fyeo.io/careers",
     "companycategory": "DID"
+  },
+  {
+    "jobname": "Talent Pool",
+    "joburl": "https://hopr.jobs.personio.de/job/751639?display=en",
+    "jobcategory": "OTHER",
+    "companyname": "HOPR",
+    "companyurl": "https://hoprnet.org/about-us/career",
+    "companycategory": "Infra"
   }
 ]
