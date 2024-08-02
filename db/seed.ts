@@ -9,7 +9,8 @@ export default async function () {
       jobcategory: "MARKETING",
       companyname: "Sienna",
       companyurl: "https://sienna.network/jobs/",
-      companycategory: "DeFi"
+      companycategory: "DeFi",
+      created_at: new Date("1970-01-01"),
     },
     {
       wallet: "0x1234567890",
@@ -18,7 +19,8 @@ export default async function () {
       jobcategory: "SECURITY",
       companyname: "Espresso Systems",
       companyurl: "https://jobs.lever.co/Espresso",
-      companycategory: "DeFi"
+      companycategory: "DeFi",
+      created_at: new Date("1970-01-01"),
     },
     {
       wallet: "0x1234567890",
@@ -27,7 +29,8 @@ export default async function () {
       jobcategory: "ENGINEERING",
       companyname: "Espresso Systems",
       companyurl: "https://jobs.lever.co/Espresso",
-      companycategory: "DeFi"
+      companycategory: "DeFi",
+      created_at: new Date("1970-01-01"),
     },
     {
       wallet: "0x1234567890",
@@ -36,7 +39,8 @@ export default async function () {
       jobcategory: "ENGINEERING",
       companyname: "Silent Research Labs",
       companyurl: "https://www.silentresearchlabs.org/company/careers",
-      companycategory: "DeFi"
+      companycategory: "DeFi",
+      created_at: new Date("1970-01-01"),
     },
     {
       wallet: "0x1234567890",
@@ -45,7 +49,8 @@ export default async function () {
       jobcategory: "ENGINEERING",
       companyname: "Silent Research Labs",
       companyurl: "https://www.silentresearchlabs.org/company/careers",
-      companycategory: "DeFi"
+      companycategory: "DeFi",
+      created_at: new Date("1970-01-01"),
     },
     {
       wallet: "0x1234567890",
@@ -54,7 +59,8 @@ export default async function () {
       jobcategory: "PRODUCT",
       companyname: "Silent Research Labs",
       companyurl: "https://www.silentresearchlabs.org/company/careers",
-      companycategory: "DeFi"
-    }
-  ])
+      companycategory: "DeFi",
+      created_at: new Date("1970-01-01"),
+    },
+  ]);
 }
