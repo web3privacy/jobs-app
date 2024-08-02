@@ -12,6 +12,7 @@ const Openings = defineTable({
     companyname: column.text(),
     companyurl: column.text(),
     companycategory: column.text({ optional: true }),
+    created_at: column.date(),
   },
   indexes: [
     { on: ["jobname", "companyname"], unique: true },
