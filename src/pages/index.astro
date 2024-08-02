@@ -2,8 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 //import jobs from "@data/jobsdata.json";
 import JobItem from "../components/JobItem.astro";
-import { db, Openings } from "astro:db";
-const jobs = await db.select().from(Openings);
+import { db, Openings, desc } from "astro:db";
+const jobs = await db
+  .select()
+  .from(Openings)
+  .orderBy(desc(Openings.created_at));
 
 // Get all unique categories
 const categories = [
