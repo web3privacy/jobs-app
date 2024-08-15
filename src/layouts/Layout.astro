@@ -9,103 +9,93 @@ const { title, metaTitle, description, image } = Astro.props;
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-		<MetaTags
-			title={metaTitle ? metaTitle : title ? title : config.title}
-			description={description ? description : config.description}
-			image={image}
-		/>
+    <MetaTags
+      title={metaTitle ? metaTitle : title ? title : config.title}
+      description={description ? description : config.description}
+      image={image}
+    />
 
-		<link
-			rel="preload"
-			href="/fonts/archivo-regular-latin-ext.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="/fonts/archivo-regular-latin.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-		<link
-			rel="preload"
-			href="/fonts/major-mono-display-v13-latin-regular.woff2"
-			as="font"
-			type="font/woff2"
-			crossorigin
-		/>
-	</head>
-	<body
-		class="bg-black bg-gradient-to-tl from-black to-blue-900/30 text-white min-h-full"
-	>
-		<div class="w-full">
-			<div
-				class="flex flex-col mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
-			>
-				<div
-					class="flex flex-row items-center justify-between lg:justify-start"
-				>
-					<a
-						class="text-3xl font-bold tracking-tighter text-white p-6 tracking-relaxed transition duration-[3000ms] ease-in-out transform hover:bg-neutral-600/30"
-						href="/"
-					>
-						<Image
-							src={logo}
-							alt="logo"
-							class="w-32 md:hidden"
-							loading="eager"
-						/>jobs.
-					</a>
-				</div>
+    <link
+      rel="preload"
+      href="/fonts/archivo-regular-latin-ext.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/archivo-regular-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/major-mono-display-v13-latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
+  <body
+    class="bg-black bg-gradient-to-tl from-black to-blue-900/30 text-white min-h-full"
+  >
+    <div class="w-full">
+      <div
+        class="flex flex-col mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8"
+      >
+        <div
+          class="flex flex-row items-center justify-between lg:justify-start"
+        >
+          <a
+            class="text-3xl font-bold tracking-tighter text-white p-6 tracking-relaxed transition duration-[3000ms] ease-in-out transform hover:bg-neutral-600/30"
+            href="/"
+          >
+            <Image
+              src={logo}
+              alt="logo"
+              class="w-32 md:hidden"
+              loading="eager"
+            />jobs.
+          </a>
+        </div>
 
-				<nav
-					class="hidden flex-col flex-grow md:flex md:justify-end md:flex-row"
-				>
-					<ul
-						class="space-y-2 list-none lg:space-y-0 lg:items-center lg:inline-flex"
-					>
-						<li>
-							<a
-								href="https://web3privacy.info/"
-								aria-label="by Web3Privacy Now"
-								class="flex"
-							>
-								<Image
-									src={logo}
-									alt="logo"
-									class="w-32"
-									loading="eager"
-								/>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-		<slot />
-		<div
-			class="middle-pane-medium"
-		>
-			<footer
-				class="flex items-center justify-center w-full mt-16 md:mt-32"
-			>
-				<div class="p-10 text-white text-center font-mono">
-					Are you passionate about privacy? Do what you love by
-					joining one of these companies contributing to privacy in
-					the web3. Empower everyone from developers to users with
-					meaningful tech, valuable use cases & advocacy. This is a
-					project by <a
-						class="font-bold"
-						href="https://web3privacy.info/">Web3Privacy</a
-					>.
-				</div>
-			</footer>
-		</div>
-	</body>
+        <nav
+          class="hidden flex-col flex-grow md:flex md:justify-end md:flex-row"
+        >
+          <ul
+            class="space-y-2 list-none lg:space-y-0 lg:items-center lg:inline-flex"
+          >
+            <li>
+              <a
+                href="https://web3privacy.info/"
+                aria-label="by Web3Privacy Now"
+                class="flex"
+              >
+                <Image src={logo} alt="logo" class="w-32" loading="eager" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <slot />
+    <div class="middle-pane-medium">
+      <footer class="flex items-center justify-center w-full mt-16 md:mt-32">
+        <div class="p-10 text-white text-center font-mono">
+          Are you passionate about privacy? Do what you love by joining one of
+          these companies contributing to privacy in the web3. Empower everyone
+          from developers to users with meaningful tech, valuable use cases &
+          advocacy. This is a project by <a
+            class="font-bold"
+            href="https://web3privacy.info/">Web3Privacy</a
+          >.
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
