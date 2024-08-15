@@ -1,4 +1,4 @@
-import { defineDb, defineTable, column } from 'astro:db';
+import { defineDb, defineTable, column, NOW } from "astro:db";
 
 const Openings = defineTable({
   columns: {
@@ -12,6 +12,7 @@ const Openings = defineTable({
     companyname: column.text(),
     companyurl: column.text(),
     companycategory: column.text({ optional: true }),
+    created_at: column.date({ default: NOW }),
   },
   indexes: [
     { on: ["jobname", "companyname"], unique: true },
