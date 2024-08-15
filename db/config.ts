@@ -12,13 +12,11 @@ const Openings = defineTable({
     companyname: column.text(),
     companyurl: column.text(),
     companycategory: column.text({ optional: true }),
-    created_at: column.date({ default: NOW }),
+    created_at: column.date({ default: NOW })
   },
-  indexes: [
-    { on: ["jobname", "companyname"], unique: true },
-  ]
-})
+  indexes: [{ on: ["jobname", "companyname"], unique: true }]
+});
 
 export default defineDb({
-  tables: { Openings },
-})
+  tables: { Openings }
+});
