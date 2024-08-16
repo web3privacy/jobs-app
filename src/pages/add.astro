@@ -119,7 +119,7 @@ if (Astro.request.method === "POST") {
             </div>
           </div>
           <form method="POST">
-            <input type="hidden" name="wallet" id="wallet" value="" />
+            <input type="hidden" name="wallet" id="wallet" required />
 
             {
               errorMessage && (
@@ -176,7 +176,7 @@ if (Astro.request.method === "POST") {
                   for="vacancy"
                   class="block mb-3 text-sm font-medium text-black"
                 >
-                  Vacancy
+                  Vacancy <span class="text-red-500">*</span>
                 </label>
                 <input
                   type="text"
@@ -184,6 +184,7 @@ if (Astro.request.method === "POST") {
                   name="vacancy"
                   placeholder="Job name"
                   class="block w-full h-12 px-4 py-2 text-gray-500 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"
+                  required
                 />
               </div>
               <div>
@@ -191,13 +192,15 @@ if (Astro.request.method === "POST") {
                   for="jobcategory"
                   class="block mb-3 text-sm font-medium text-black"
                 >
-                  Category
+                  Category <span class="text-red-500">*</span>
                 </label>
                 <select
                   name="jobcategory"
                   id="jobcategory"
                   class="block w-full h-12 px-4 py-2 text-gray-500 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"
+                  required
                 >
+                  <option value="" disabled selected>Select a category</option>
                   <option value="Engineering">Engineering</option>
                   <option value="Marketing">Marketing</option>
                   <option value="Security">Security</option>
@@ -212,14 +215,15 @@ if (Astro.request.method === "POST") {
                   for="url"
                   class="block mb-3 text-sm font-medium text-black"
                 >
-                  Link
+                  Link <span class="text-red-500">*</span>
                 </label>
                 <input
                   id="url"
                   name="url"
                   class="block w-full h-12 px-4 py-2 text-gray-500 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"
                   placeholder="An URL link to the job posting"
-                  type="text"
+                  type="url"
+                  required
                 />
               </div>
               <div class="col-span-full">
@@ -227,7 +231,7 @@ if (Astro.request.method === "POST") {
                   for="company"
                   class="block mb-3 text-sm font-medium text-black"
                 >
-                  Company Name
+                  Company Name <span class="text-red-500">*</span>
                 </label>
                 <input
                   id="company"
@@ -235,6 +239,7 @@ if (Astro.request.method === "POST") {
                   class="block w-full h-12 px-4 py-2 text-gray-500 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"
                   placeholder="Name of your company"
                   type="text"
+                  required
                 />
               </div>
               <div class="col-span-full">
@@ -242,14 +247,15 @@ if (Astro.request.method === "POST") {
                   for="companyurl"
                   class="block mb-3 text-sm font-medium text-black"
                 >
-                  Company Link
+                  Company Link <span class="text-red-500">*</span>
                 </label>
                 <input
                   id="companyurl"
                   name="companyurl"
                   class="block w-full h-12 px-4 py-2 text-gray-500 duration-200 border rounded-lg appearance-none bg-chalk border-zinc-300 placeholder-zinc-300 focus:border-zinc-300 focus:outline-none focus:ring-zinc-300 sm:text-sm"
                   placeholder="An URL link to your website"
-                  type="text"
+                  type="url"
+                  required
                 />
               </div>
               <div class="col-span-full">
