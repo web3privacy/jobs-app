@@ -15,7 +15,6 @@ if (Astro.request.method === "POST") {
   const joblocation = formData.get("joblocation");
   const companyname = formData.get("company");
   const companyurl = formData.get("companyurl");
-  const companycategory = formData.get("companycategory");
   const wallet = formData.get("wallet");
 
   if (
@@ -35,8 +34,7 @@ if (Astro.request.method === "POST") {
         jobdescription,
         joblocation,
         companyname,
-        companyurl,
-        companycategory
+        companyurl
       });
       successMessage = "Success! Thanks for adding a vacancy.";
     } catch (error) {
