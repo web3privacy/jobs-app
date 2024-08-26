@@ -3,7 +3,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
+import { headers } from 'next/headers'
 
+import { cookieToInitialState } from 'wagmi'
+import { config } from '@/config'
+import Web3ModalProvider from '@/context'
 const titleFull = 'Jobs. | Web3Privacy Now'
 const descriptionFull =
 	'Privacy advocates worldwide are coming together to discuss how to mainstream privacy within the Web3 industry. So it will become a cultural phenomenon embodying both decentralisation & anti-surveillance capitalism practices.'
@@ -36,11 +40,13 @@ export default function RootLayout({
 }: Readonly<{
 	children: React.ReactNode
 }>) {
+	const initialState = cookieToInitialState(config, headers().get('cookie'))
 	return (
 		<html lang="en">
 			<body className="min-h-full bg-black text-white">
 				<Header />
-				{children}
+				<Web3ModalProvider initialState={initialState}>{children}</Web3ModalProvider>
+
 				<Footer />
 			</body>
 		</html>

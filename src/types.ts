@@ -5,6 +5,8 @@ export type JobItem = {
 	companyurl: string
 	joburl: string
 	jobcategory: string
+	created_at: string
+	archived_at: string
 }
 
 export type JobItemProps = {

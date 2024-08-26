@@ -16,6 +16,10 @@ const Header = () => {
 						jobs.
 					</Link>
 				</div>
+				<div className="hidden flex-grow flex-col md:flex md:flex-row md:justify-end">
+					<w3m-button balance="hide" />
+				</div>
+
 				<nav className="hidden flex-grow flex-col md:flex md:flex-row md:justify-end">
 					<ul className="list-none space-y-2 lg:inline-flex lg:items-center lg:space-y-0">
 						<li>

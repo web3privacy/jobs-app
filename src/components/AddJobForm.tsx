@@ -1,55 +1,96 @@
 'use client'
-import React, { useState } from 'react'
-// import { createThirdwebClient } from "thirdweb";
-// import { createWallet, injectedProvider, walletConnect } from "thirdweb/wallets";
+
+import React, { useState, useEffect, useRef } from 'react'
+import { useAccount, useSignMessage } from 'wagmi'
 
 export default function AddJobForm() {
 	const [wallet, setWallet] = useState('')
 	const [errorMessage, setErrorMessage] = useState('')
 	const [successMessage, setSuccessMessage] = useState('')
+	const [isSubmitting, setIsSubmitting] = useState(false)
+	const [submitStatus, setSubmitStatus] = useState('')
+	const { address, isConnected } = useAccount()
+	const { signMessageAsync } = useSignMessage()
+	const formRef = useRef<HTMLFormElement>(null)
 
-	const handleWalletConnect = async () => {
-		setWallet('0x000000000000000000000')
-		// TODO - Implement wallet connection
-	}
+	useEffect(() => {
+		if (isConnected && address) {
+			setWallet(address)
+		} else {
+			setWallet('')
+		}
+	}, [isConnected, address])
 
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault()
+		setIsSubmitting(true)
+		setSubmitStatus('Preparing to sign message...')
+		setErrorMessage('')
+		setSuccessMessage('')
+
 		const formData = new FormData(event.currentTarget)
 
-		const response = await fetch('/api/add-job', {
-			method: 'POST',
-			body: formData,
-		})
+		try {
+			const message = `Adding job listing: ${formData.get('vacancy')} at ${formData.get('company')}`
 
-		if (response.ok) {
-			setSuccessMessage('Success! Thanks for adding a vacancy.')
-			setErrorMessage('')
-		} else {
-			const errorData = await response.json()
-			setErrorMessage(errorData.message || 'An error occurred while adding the job listing. Please try again.')
-			setSuccessMessage('')
+			setSubmitStatus('Please sign the message in your wallet...')
+			const signature = await signMessageAsync({ message })
+
+			formData.append('signature', signature)
+			formData.append('message', message)
+
+			setSubmitStatus('Submitting job listing...')
+			const response = await fetch('/api/add-job', {
+				method: 'POST',
+				body: formData,
+			})
+
+			const result = await response.json()
+
+			if (response.ok) {
+				setSuccessMessage(result.message)
+				if (formRef.current) {
+					formRef.current.reset()
+				}
+			} else {
+				setErrorMessage(result.message)
+			}
+		} catch (error) {
+			setErrorMessage('An error occurred. Please try again.')
+		} finally {
+			setIsSubmitting(false)
+			setSubmitStatus('')
 		}
 	}
 
 	return (
 		<div className="mt-8">
-			<button
-				onClick={handleWalletConnect}
-				className="inline-flex h-12 w-full items-center justify-center gap-3 rounded-xl bg-gray-900 px-5 py-3 font-medium text-white duration-200 hover:bg-gray-700 focus:ring-2 focus:ring-black focus:ring-offset-2"
-				type="button"
-				aria-label="Connect Wallet"
-			>
-				<span>{wallet ? 'Connected' : 'Connect Wallet'}</span>
-			</button>
-			<div className="relative py-3">
-				<div className="absolute inset-0 flex items-center" aria-hidden="true">
-					<div className="w-full border-t border-gray-300"></div>
+			{!isConnected && (
+				<div className="mb-4 rounded-md bg-blue-50 p-4">
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<svg
+								className="h-5 w-5 text-blue-400"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fillRule="evenodd"
+									d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z"
+									clipRule="evenodd"
+								/>
+							</svg>
+						</div>
+						<div className="ml-3 flex-1 md:flex md:justify-between">
+							<p className="text-sm text-blue-700">
+								Please sign in using the Connect Wallet button in the header to add a job listing.
+							</p>
+						</div>
+					</div>
 				</div>
-				<div className="relative flex justify-center">
-					<span className="bg-white px-2 text-sm text-black">and fill the form</span>
-				</div>
-			</div>
+			)}
 
 			{errorMessage && (
 				<div className="mt-4 flex items-center space-x-4 rounded-r-lg border-l-4 border-red-500 bg-red-50 p-4">
@@ -62,9 +103,9 @@ export default function AddJobForm() {
 							aria-hidden="true"
 						>
 							<path
-								fill-rule="evenodd"
+								fillRule="evenodd"
 								d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-								clip-rule="evenodd"
+								clipRule="evenodd"
 							/>
 						</svg>
 					</div>
@@ -85,9 +126,9 @@ export default function AddJobForm() {
 							aria-hidden="true"
 						>
 							<path
-								fill-rule="evenodd"
+								fillRule="evenodd"
 								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
+								clipRule="evenodd"
 							/>
 						</svg>
 					</div>
@@ -97,7 +138,7 @@ export default function AddJobForm() {
 				</div>
 			)}
 
-			<form onSubmit={handleSubmit}>
+			<form onSubmit={handleSubmit} ref={formRef}>
 				<input type="hidden" name="wallet" value={wallet} />
 				<div className="space-y-3">
 					<div>
@@ -179,14 +220,16 @@ export default function AddJobForm() {
 					<div className="col-span-full">
 						<button
 							type="submit"
-							// disabled={!wallet}
+							disabled={!wallet || isSubmitting}
 							className="inline-flex h-12 w-full items-center justify-center gap-3 rounded-xl bg-gray-900 px-5 py-3 font-medium text-white duration-200 hover:bg-gray-700 focus:ring-2 focus:ring-black focus:ring-offset-2 disabled:bg-gray-100 disabled:text-gray-300"
 						>
-							Add Job Listing
+							{isSubmitting ? 'Processing...' : 'Sign & Add Job Listing'}
 						</button>
 					</div>
 				</div>
 			</form>
+			{/* TODO: properly style this */}
+			{submitStatus && <p className="mt-2 text-sm text-gray-600">{submitStatus}</p>}
 
 			<div className="mt-6">
 				<p className="mx-auto flex text-center text-sm font-medium leading-tight text-black">

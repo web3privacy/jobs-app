@@ -7,5 +7,6 @@ module.exports = {
 	useTabs: true,
 	bracketSpacing: true,
 	arrowParens: 'avoid',
-	plugins: [require('prettier-plugin-sort-imports-desc'), 'prettier-plugin-tailwindcss'],
+	tailwindConfig: './tailwind.config.ts',
+	plugins: ['prettier-plugin-tailwindcss'],
 }
