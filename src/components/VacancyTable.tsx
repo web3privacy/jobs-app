@@ -3,7 +3,7 @@
 import { useLayoutEffect, useRef, useState } from 'react'
 import { JobItem } from '@/types'
 
-interface VacancyListProps {
+interface VacancyTableProps {
 	vacancies: JobItem[]
 }
 
@@ -11,7 +11,7 @@ function classNames(...classes: string[]) {
 	return classes.filter(Boolean).join(' ')
 }
 
-export default function VacancyList({ vacancies: initialVacancies }: VacancyListProps) {
+export default function VacancyTable({ vacancies: initialVacancies }: VacancyTableProps) {
 	const checkbox = useRef<HTMLInputElement>(null)
 	const [checked, setChecked] = useState(false)
 	const [indeterminate, setIndeterminate] = useState(false)

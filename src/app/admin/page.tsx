@@ -1,7 +1,7 @@
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/utils/auth'
 import { createClient } from '@supabase/supabase-js'
-import VacancyList from '@/components/VacancyList'
+import VacancyTable from '@/components/VacancyTable'
 import { redirect } from 'next/navigation'
 
 const supabase = createClient(process.env.SUPABASE_URL || '', process.env.SUPABASE_KEY || '')
@@ -29,7 +29,7 @@ export default async function AdminPage() {
 
 	return (
 		<main className="">
-			<VacancyList vacancies={vacancies} />
+			<VacancyTable vacancies={vacancies} />
 		</main>
 	)
 }
