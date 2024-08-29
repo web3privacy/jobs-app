@@ -96,96 +96,105 @@ export default function VacancyTable({ vacancies: initialVacancies }: VacancyTab
 			<div className="mt-8 flow-root">
 				<div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
 					<div className="inline-block min-w-full py-2 align-middle">
-						<table className="min-w-full divide-y divide-gray-700">
-							<thead>
-								<tr>
-									<th scope="col" className="relative px-7 sm:w-12 sm:px-6">
-										<input
-											type="checkbox"
-											className="absolute left-4 top-1/2 -mt-2 h-4 w-4 rounded border-gray-500 bg-gray-900 text-white focus:ring-white focus:ring-offset-gray-900"
-											ref={checkbox}
-											checked={checked}
-											onChange={toggleAll}
-										/>
-									</th>
-									<th
-										scope="col"
-										className="cursor-pointer py-3.5 pr-3 text-left text-sm font-semibold text-white"
-										onClick={() => handleSort('jobname')}
-									>
-										Job Name {sortColumn === 'jobname' && (sortDirection === 'asc' ? '▲' : '▼')}
-									</th>
-									<th
-										scope="col"
-										className="cursor-pointer px-3 py-3.5 text-left text-sm font-semibold text-white"
-										onClick={() => handleSort('companyname')}
-									>
-										Company Name{' '}
-										{sortColumn === 'companyname' && (sortDirection === 'asc' ? '▲' : '▼')}
-									</th>
-									<th
-										scope="col"
-										className="cursor-pointer px-3 py-3.5 text-left text-sm font-semibold text-white"
-										onClick={() => handleSort('jobcategory')}
-									>
-										Job Category{' '}
-										{sortColumn === 'jobcategory' && (sortDirection === 'asc' ? '▲' : '▼')}
-									</th>
-									<th
-										scope="col"
-										className="cursor-pointer px-3 py-3.5 text-left text-sm font-semibold text-white"
-										onClick={() => handleSort('created_at')}
-									>
-										Created At{' '}
-										{sortColumn === 'created_at' && (sortDirection === 'asc' ? '▲' : '▼')}
-									</th>
-								</tr>
-							</thead>
-							<tbody className="divide-y divide-gray-800">
-								{vacancies.map(vacancy => (
-									<tr
-										key={vacancy.id}
-										className={selectedVacancies.includes(vacancy) ? 'bg-gray-800' : 'bg-black'}
-									>
-										<td className="relative px-7 sm:w-12 sm:px-6">
-											{selectedVacancies.includes(vacancy) && (
-												<div className="absolute inset-y-0 left-0 w-0.5 bg-white" />
-											)}
-											<input
-												type="checkbox"
-												className="absolute left-4 top-1/2 -mt-2 h-4 w-4 rounded border-gray-500 bg-gray-900 text-white focus:ring-white focus:ring-offset-gray-900"
-												value={vacancy.id}
-												checked={selectedVacancies.includes(vacancy)}
-												onChange={e =>
-													setSelectedVacancies(
-														e.target.checked
-															? [...selectedVacancies, vacancy]
-															: selectedVacancies.filter(v => v !== vacancy)
-													)
+						<div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg">
+							<div className="max-h-[calc(100vh-200px)] overflow-y-auto">
+								<table className="min-w-full divide-y divide-gray-700">
+									<thead className="sticky top-0 z-10 bg-gray-900">
+										<tr>
+											<th scope="col" className="relative px-7 sm:w-12 sm:px-6">
+												<input
+													type="checkbox"
+													className="absolute left-4 top-1/2 -mt-2 h-4 w-4 rounded border-gray-500 bg-gray-900 text-white focus:ring-white focus:ring-offset-gray-900"
+													ref={checkbox}
+													checked={checked}
+													onChange={toggleAll}
+												/>
+											</th>
+											<th
+												scope="col"
+												className="cursor-pointer py-3.5 pr-3 text-left text-sm font-semibold text-white"
+												onClick={() => handleSort('jobname')}
+											>
+												Job Name{' '}
+												{sortColumn === 'jobname' && (sortDirection === 'asc' ? '▲' : '▼')}
+											</th>
+											<th
+												scope="col"
+												className="cursor-pointer px-3 py-3.5 text-left text-sm font-semibold text-white"
+												onClick={() => handleSort('companyname')}
+											>
+												Company Name{' '}
+												{sortColumn === 'companyname' && (sortDirection === 'asc' ? '▲' : '▼')}
+											</th>
+											<th
+												scope="col"
+												className="cursor-pointer px-3 py-3.5 text-left text-sm font-semibold text-white"
+												onClick={() => handleSort('jobcategory')}
+											>
+												Job Category{' '}
+												{sortColumn === 'jobcategory' && (sortDirection === 'asc' ? '▲' : '▼')}
+											</th>
+											<th
+												scope="col"
+												className="cursor-pointer px-3 py-3.5 text-left text-sm font-semibold text-white"
+												onClick={() => handleSort('created_at')}
+											>
+												Created At{' '}
+												{sortColumn === 'created_at' && (sortDirection === 'asc' ? '▲' : '▼')}
+											</th>
+										</tr>
+									</thead>
+									<tbody className="divide-y divide-gray-800">
+										{vacancies.map(vacancy => (
+											<tr
+												key={vacancy.id}
+												className={
+													selectedVacancies.includes(vacancy) ? 'bg-gray-800' : 'bg-black'
 												}
-											/>
-										</td>
-										<td
-											className={classNames(
-												'whitespace-nowrap py-4 pr-3 text-sm font-medium',
-												selectedVacancies.includes(vacancy) ? 'text-white' : 'text-gray-300'
-											)}
-										>
-											{vacancy.jobname}
-										</td>
-										<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
-											{vacancy.companyname}
-										</td>
-										<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
-											{vacancy.jobcategory}
-										</td>
-										<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
-											{new Date(vacancy.created_at).toLocaleDateString()}
-										</td>
-									</tr>
-								))}
-							</tbody>
-						</table>
+											>
+												<td className="relative px-7 sm:w-12 sm:px-6">
+													{selectedVacancies.includes(vacancy) && (
+														<div className="absolute inset-y-0 left-0 w-0.5 bg-white" />
+													)}
+													<input
+														type="checkbox"
+														className="absolute left-4 top-1/2 -mt-2 h-4 w-4 rounded border-gray-500 bg-gray-900 text-white focus:ring-white focus:ring-offset-gray-900"
+														value={vacancy.id}
+														checked={selectedVacancies.includes(vacancy)}
+														onChange={e =>
+															setSelectedVacancies(
+																e.target.checked
+																	? [...selectedVacancies, vacancy]
+																	: selectedVacancies.filter(v => v !== vacancy)
+															)
+														}
+													/>
+												</td>
+												<td
+													className={classNames(
+														'whitespace-nowrap py-4 pr-3 text-sm font-medium',
+														selectedVacancies.includes(vacancy)
+															? 'text-white'
+															: 'text-gray-300'
+													)}
+												>
+													{vacancy.jobname}
+												</td>
+												<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
+													{vacancy.companyname}
+												</td>
+												<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
+													{vacancy.jobcategory}
+												</td>
+												<td className="whitespace-nowrap px-3 py-4 text-sm text-gray-300">
+													{new Date(vacancy.created_at).toLocaleDateString()}
+												</td>
+											</tr>
+										))}
+									</tbody>
+								</table>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
