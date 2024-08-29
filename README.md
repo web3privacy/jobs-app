@@ -1,4 +1,5 @@
 # Job board across Privacy x web3
+**Description**: one board hosting all available vacancies across the privacy x web3 market.
 
 [research project](https://docs.web3privacy.info/research/hiring/)
 
