@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server'
 import { getServerSession } from 'next-auth'
-import { createClient } from '@supabase/supabase-js'
 import { authOptions } from '@/utils/auth'
-const supabase = createClient(process.env.SUPABASE_URL || '', process.env.SUPABASE_KEY || '')
+import { supabase } from '@/utils/supabaseClient'
 
 export async function POST(request: Request) {
 	const session = await getServerSession(authOptions)

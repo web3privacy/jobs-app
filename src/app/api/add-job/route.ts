@@ -1,9 +1,7 @@
 import { NextResponse } from 'next/server'
-import { createClient } from '@supabase/supabase-js'
 import { verifyMessage } from '@wagmi/core'
 import { config } from '@/config'
-
-const supabase = createClient(process.env.SUPABASE_URL || '', process.env.SUPABASE_KEY || '')
+import { supabase } from '@/utils/supabaseClient'
 
 export async function POST(request: Request) {
 	const formData = await request.formData()

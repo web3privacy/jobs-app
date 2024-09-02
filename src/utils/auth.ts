@@ -1,8 +1,7 @@
 import { Session } from 'next-auth'
 
 import { NextAuthOptions } from 'next-auth'
-import { createClient } from '@supabase/supabase-js'
-
+import { supabase } from '@/utils/supabaseClient'
 import credentialsProvider from 'next-auth/providers/credentials'
 import { type SIWESession, verifySignature, getChainIdFromMessage, getAddressFromMessage } from '@web3modal/siwe'
 
@@ -10,7 +9,7 @@ const nextAuthSecret = process.env.NEXTAUTH_SECRET
 if (!nextAuthSecret) {
 	throw new Error('NEXTAUTH_SECRET is not set')
 }
-const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_KEY!)
+
 const projectId = process.env.NEXT_PUBLIC_PROJECT_ID
 if (!projectId) {
 	throw new Error('NEXT_PUBLIC_PROJECT_ID is not set')

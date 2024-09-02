@@ -1,10 +1,8 @@
 import { getServerSession } from 'next-auth'
 import { authOptions } from '@/utils/auth'
-import { createClient } from '@supabase/supabase-js'
+import { supabase } from '@/utils/supabaseClient'
 import VacancyTable from '@/components/VacancyTable'
 import { redirect } from 'next/navigation'
-
-const supabase = createClient(process.env.SUPABASE_URL || '', process.env.SUPABASE_KEY || '')
 
 export const metadata = {
 	title: 'Admin | Archive Jobs',
