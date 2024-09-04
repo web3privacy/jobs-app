@@ -6,10 +6,10 @@ if (!supabaseUrl) {
 	throw new Error('Missing env.SUPABASE_URL')
 }
 
-const supabaseKey = process.env.SUPABASE_KEY
+const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY
 
-if (!supabaseKey) {
-	throw new Error('Missing env.SUPABASE_KEY')
+if (!supabaseServiceRoleKey) {
+	throw new Error('Missing env.SUPABASE_SERVICE_ROLE_KEY')
 }
 
-export const supabase = createClient(supabaseUrl, supabaseKey)
+export const supabase = createClient(supabaseUrl, supabaseServiceRoleKey)
