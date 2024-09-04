@@ -85,7 +85,7 @@ export const authOptions: NextAuthOptions = {
 		async jwt({ token, user }) {
 			if (user) {
 				const { data, error } = await supabase
-					.from('users')
+					.from('OpeningsAdmins')
 					.select('*')
 					.eq('address', user.id.split(':')[2])
 					.single()
