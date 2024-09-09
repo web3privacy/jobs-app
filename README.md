@@ -11,9 +11,8 @@ A job board for privacy-focused roles in the Web3 industry.
 
 ## Relevant Links
 
--   [Job board](https://web3privacy.info)
+-   [Job board](https://jobs.web3privacy.info)
 -   [Add a job](https://jobs.web3privacy.info/add)
--   [Admin panel](https://jobs.web3privacy.info/admin)
 
 ## For Developers
 
